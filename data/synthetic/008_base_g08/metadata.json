@@ -1,0 +1,8 @@
+{
+  "N": 240,
+  "L": 4,
+  "K": 4,
+  "condition": "base",
+  "instance": 8,
+  "family": "SBM"
+}

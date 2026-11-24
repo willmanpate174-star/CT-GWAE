@@ -1,0 +1,30 @@
+{
+  "original_synthetic_csv_sha256": "9dc96ce4d5e467934b15e462f438da07279694a6c43d7a778f93a35dba7c40eb",
+  "original_real_csv_sha256": "2f4b9e280c4ea878bf9ff12cf4ee670ce9997e377ab07487b15a0813fbd4c05d",
+  "combined_InfoMGF_receipt_sha256": "d0c9817d5b70dcf3c8982fc90bab57a53ea5ad7e26330ea0b1cb1c36a880a531",
+  "InfoMGF_graph_metrics_sha256": "81e3ffb3a894493b2c725f887878dea771a90caf0c827b9626d9da4356817115",
+  "graph_count": 328,
+  "InfoMGF_runs": 3280,
+  "actual_data_no_new_training": true,
+  "synthetic_CT_runs_per_graph": 5,
+  "synthetic_baseline_runs_per_graph": 10,
+  "real_method_runs": 10,
+  "aggregation": "Training means within graph, independent graph means within condition",
+  "figure_contract": {
+    "backend": "Python; existing matplotlib workflow",
+    "figures": [
+      "Real ARI radar: compare all nine methods on the same eight networks",
+      "SBM grid: compare nine methods across all six fixed factors",
+      "LFR grid: compare nine methods across all six fixed factors"
+    ],
+    "exports": "Vector PDF/SVG, PNG preview; existing IEEE column widths and axes retained",
+    "statistical_units": "10 independent graphs per synthetic condition;10 complete real runs",
+    "error_bars": "No new error bars; existing mean-only figure design retained"
+  },
+  "InfoMGF_publication_pdf_sha256": "86598ae08a615e6e6661bca196fcb05af22c4d7042074b64cd96da82340e3e68",
+  "reproduction_scope": [
+    "real_world",
+    "synthetic",
+    "scalability"
+  ]
+}

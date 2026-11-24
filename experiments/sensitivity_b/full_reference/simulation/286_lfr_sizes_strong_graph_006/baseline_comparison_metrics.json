@@ -1,0 +1,77 @@
+{
+  "status": "passed",
+  "method": "CT-GWAE-V8-20261008",
+  "scope": "same 320 frozen graphs as seven baselines",
+  "condition": "lfr_sizes_strong",
+  "instance": 6,
+  "family": "LFR_derived",
+  "graph_index": 286,
+  "outer_repeats": 5,
+  "cold_starts_per_repeat": 10,
+  "training_candidates": 50,
+  "training_proposals": 30000,
+  "protocol_amendment_sha256": "75edc88df353105c9d1b6e82b0b0599f783e648277bbbb42d2b635f3f1151ead",
+  "selection": "own decoded complete hardGW first-argmin before truth",
+  "metric_rule": "baseline one-shot node-layer ARI/NMI/ACC",
+  "package_manifest_sha256": "e3b19ff1d528e7edeb0f0184ff11a3b3d23d4c6103896635710d597e3361692f",
+  "input_metadata_sha256": "4ba21291ce0cf5523433e4a2835d043b4ffb11b751ae56b02486ca29e9585228",
+  "lock_sha256": "43add24d67cc23a1d44e65987edec0f47c313afe7be1554894341e78a8d65e45",
+  "rows": [
+    {
+      "r": 0,
+      "winner_j": 1,
+      "seed": 51286001,
+      "ari": 1.0,
+      "nmi": 1.0,
+      "acc": 1.0,
+      "evaluation_positions": 960,
+      "predicted_communities": 6
+    },
+    {
+      "r": 1,
+      "winner_j": 0,
+      "seed": 51286100,
+      "ari": 1.0,
+      "nmi": 1.0,
+      "acc": 1.0,
+      "evaluation_positions": 960,
+      "predicted_communities": 6
+    },
+    {
+      "r": 2,
+      "winner_j": 0,
+      "seed": 51286200,
+      "ari": 1.0,
+      "nmi": 1.0,
+      "acc": 1.0,
+      "evaluation_positions": 960,
+      "predicted_communities": 6
+    },
+    {
+      "r": 3,
+      "winner_j": 0,
+      "seed": 51286300,
+      "ari": 1.0,
+      "nmi": 1.0,
+      "acc": 1.0,
+      "evaluation_positions": 960,
+      "predicted_communities": 6
+    },
+    {
+      "r": 4,
+      "winner_j": 0,
+      "seed": 51286400,
+      "ari": 1.0,
+      "nmi": 1.0,
+      "acc": 1.0,
+      "evaluation_positions": 960,
+      "predicted_communities": 6
+    }
+  ],
+  "ari_mean": 1.0,
+  "ari_sample_sd": 0.0,
+  "nmi_mean": 1.0,
+  "nmi_sample_sd": 0.0,
+  "acc_mean": 1.0,
+  "acc_sample_sd": 0.0
+}

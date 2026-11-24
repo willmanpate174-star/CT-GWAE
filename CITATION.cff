@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "Please cite the CT-GWAE manuscript when using this software."
+title: "CT-GWAE: A Community-Transport Gromov-Wasserstein Autoencoder for Multiplex Community Detection"
+type: software
+license: MIT
+repository-code: https://github.com/willmanpate174-star/CT-GWAE
+authors:
+  - family-names: "Ding"
+    given-names: "Junhao"
+  - family-names: "Xu"
+    given-names: "Qinghuan"
+  - family-names: "Cheng"
+    given-names: "Zile"
+  - family-names: "Zhou"
+    given-names: "Shuqin"
+  - family-names: "Zhang"
+    given-names: "Yao"
+  - family-names: "Li"
+    given-names: "Huijia"

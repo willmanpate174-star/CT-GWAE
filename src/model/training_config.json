@@ -1,0 +1,29 @@
+{
+  "optimizer": "Adam",
+  "learning_rate": 0.012,
+  "gradient_clip_norm": 5,
+  "proposals_per_candidate": 600,
+  "train_unroll_steps": 24,
+  "learned_eta_count": 12,
+  "tail_eta": "repeat final eta",
+  "optimizer_reset_between_epochs": false,
+  "outer_line_search_scales": [
+    1.0,
+    0.5,
+    0.25,
+    0.125,
+    0.0625,
+    0.03125,
+    0.015625,
+    0.0078125,
+    0.00390625,
+    0.001953125,
+    0.0009765625
+  ],
+  "acceptance_improvement": 1E-12,
+  "acceptance_rule": "first finite S24 loss < before_loss - acceptance_improvement",
+  "on_rejection": "restore parameters and optimizer state; consume proposal budget",
+  "on_acceptance": "retain proposal optimizer moments",
+  "checkpoint": "lowest own S24 including initial and terminal; first exact tie",
+  "metric_based_early_stop": false
+}

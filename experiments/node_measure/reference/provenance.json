@@ -1,0 +1,11 @@
+{
+  "source": "D:\\用户文件\\桌面\\李慧嘉课题组\\V8神经网络\\实验\\消融敏感性分析\\A组\\回收_20261024_125318",
+  "files": {
+    "full_reference/winners.json": "cc3398cbfc93446b2f7502c0b30bb0826458ca7a29c584f0aa078f7f74e1a088",
+    "full_reference/sources.json": "149e2bf5504ed318c6b4f8e5dfa9e50b09e1489ee2789f3bfe2dabdd16c27d5b"
+  },
+  "all_40_labels_sha_verified": true,
+  "training_not_repeated": true,
+  "reference_metrics_already_known": true,
+  "prediction_sources": "Original formal600 serial, four-worker and config-recovery candidate endpoint archives, matched by original SHA256"
+}

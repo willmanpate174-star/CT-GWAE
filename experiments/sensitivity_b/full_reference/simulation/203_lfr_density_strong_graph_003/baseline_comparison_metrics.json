@@ -1,0 +1,77 @@
+{
+  "status": "passed",
+  "method": "CT-GWAE-V8-20261008",
+  "scope": "same 320 frozen graphs as seven baselines",
+  "condition": "lfr_density_strong",
+  "instance": 3,
+  "family": "LFR_derived",
+  "graph_index": 203,
+  "outer_repeats": 5,
+  "cold_starts_per_repeat": 10,
+  "training_candidates": 50,
+  "training_proposals": 30000,
+  "protocol_amendment_sha256": "75edc88df353105c9d1b6e82b0b0599f783e648277bbbb42d2b635f3f1151ead",
+  "selection": "own decoded complete hardGW first-argmin before truth",
+  "metric_rule": "baseline one-shot node-layer ARI/NMI/ACC",
+  "package_manifest_sha256": "e3b19ff1d528e7edeb0f0184ff11a3b3d23d4c6103896635710d597e3361692f",
+  "input_metadata_sha256": "69f58830721b6031e44962d5a3592cb92ca744156be991705043bdf0ebcb117c",
+  "lock_sha256": "dadc944a00061769dbaa511fb51ac8d8dda77b1ef417ff45786483571b528579",
+  "rows": [
+    {
+      "r": 0,
+      "winner_j": 0,
+      "seed": 51203000,
+      "ari": 1.0,
+      "nmi": 0.9999999999999999,
+      "acc": 1.0,
+      "evaluation_positions": 960,
+      "predicted_communities": 6
+    },
+    {
+      "r": 1,
+      "winner_j": 0,
+      "seed": 51203100,
+      "ari": 1.0,
+      "nmi": 0.9999999999999999,
+      "acc": 1.0,
+      "evaluation_positions": 960,
+      "predicted_communities": 6
+    },
+    {
+      "r": 2,
+      "winner_j": 2,
+      "seed": 51203202,
+      "ari": 1.0,
+      "nmi": 1.0,
+      "acc": 1.0,
+      "evaluation_positions": 960,
+      "predicted_communities": 6
+    },
+    {
+      "r": 3,
+      "winner_j": 0,
+      "seed": 51203300,
+      "ari": 1.0,
+      "nmi": 1.0,
+      "acc": 1.0,
+      "evaluation_positions": 960,
+      "predicted_communities": 6
+    },
+    {
+      "r": 4,
+      "winner_j": 0,
+      "seed": 51203400,
+      "ari": 1.0,
+      "nmi": 0.9999999999999999,
+      "acc": 1.0,
+      "evaluation_positions": 960,
+      "predicted_communities": 6
+    }
+  ],
+  "ari_mean": 1.0,
+  "ari_sample_sd": 0.0,
+  "nmi_mean": 1.0,
+  "nmi_sample_sd": 9.614813431917819e-17,
+  "acc_mean": 1.0,
+  "acc_sample_sd": 0.0
+}

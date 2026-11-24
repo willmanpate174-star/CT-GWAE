@@ -1,0 +1,113 @@
+{
+  "name": "dkpol",
+  "N": 490,
+  "L": 3,
+  "K": 10,
+  "preprocessing": "binary_presence",
+  "format": "CSR arrays per layer; aligned node index 0..N-1",
+  "undirected": true,
+  "zero_diagonal": true,
+  "edge_counts": [
+    19581,
+    159,
+    458
+  ],
+  "globally_active_nodes": 490,
+  "has_ground_truth": true,
+  "source": "existing project loader, unchanged node ordering",
+  "evaluation_nodes_original_mask": 490,
+  "evaluation_nodes_mask_and_active": 490,
+  "import_protocol": "byte-identical frozen seven; no reordering or graph reconstruction",
+  "graph_sha256": "0d428564cf6a2b00e978292a81d691bb18f77c00d3898f10046dbb9be3fa63bb",
+  "evaluation_sha256": "a8980edac68f44320d95703d9c7f54931a3f07d3d5d0f8e13f652855d019aa67",
+  "external_labels_used_for_training": false,
+  "raw_reconstruction_verified": true,
+  "source_url": "https://github.com/obaidaITU/dkpol",
+  "input_archive_note": "MAT files from locally archived AL-Weight source; original politician repository is not a verified identical three-layer MAT input",
+  "raw_hashes": {
+    "dkpol.mat": "004664bdadd8c4569ff8624425d513be0ba8509a0e4d8b3f00ee128ad32f6e61",
+    "dkpol_real.mat": "3073049630222b153e5856a79f491845f13b39afe36129700bd086f0104f10b5"
+  },
+  "m_total": 20198,
+  "m_union": 19638,
+  "nnz_total": 40396,
+  "statistics": {
+    "N": 490,
+    "L": 3,
+    "K": 10,
+    "m_total": 20198,
+    "m_union": 19638,
+    "nnz_total": 40396,
+    "edge_counts": [
+      19581,
+      159,
+      458
+    ],
+    "density_multilayer": 0.05619687547820764,
+    "density_union": 0.16391636409164892,
+    "mean_degree_per_layer": 27.480272108843536,
+    "mean_degree_union": 80.15510204081633,
+    "weight_sum_total_undirected": 20198.0,
+    "evaluation_nodes": 490,
+    "evaluation_coverage": 1.0,
+    "globally_isolated_nodes": 0,
+    "union_connected_components": 1,
+    "all_layers_binary": true,
+    "class_counts": {
+      "1": 45,
+      "2": 44,
+      "3": 37,
+      "4": 41,
+      "5": 16,
+      "6": 59,
+      "7": 57,
+      "8": 70,
+      "9": 60,
+      "10": 61
+    },
+    "layers": [
+      {
+        "dataset": "dkpol",
+        "layer_index": 0,
+        "layer_name": "layer_1",
+        "N": 490,
+        "m_layer": 19581,
+        "nnz": 39162,
+        "density": 0.1634405909603105,
+        "mean_degree": 79.92244897959183,
+        "isolated_nodes": 0,
+        "connected_components": 1,
+        "binary": true,
+        "weight_sum_undirected": 19581.0
+      },
+      {
+        "dataset": "dkpol",
+        "layer_index": 1,
+        "layer_name": "layer_2",
+        "N": 490,
+        "m_layer": 159,
+        "nnz": 318,
+        "density": 0.0013271566295229749,
+        "mean_degree": 0.6489795918367347,
+        "isolated_nodes": 363,
+        "connected_components": 372,
+        "binary": true,
+        "weight_sum_undirected": 159.0
+      },
+      {
+        "dataset": "dkpol",
+        "layer_index": 2,
+        "layer_name": "layer_3",
+        "N": 490,
+        "m_layer": 458,
+        "nnz": 916,
+        "density": 0.0038228788447894494,
+        "mean_degree": 1.8693877551020408,
+        "isolated_nodes": 278,
+        "connected_components": 280,
+        "binary": true,
+        "weight_sum_undirected": 458.0
+      }
+    ]
+  }
+}

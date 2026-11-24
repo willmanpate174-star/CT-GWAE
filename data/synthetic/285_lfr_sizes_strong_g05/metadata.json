@@ -1,0 +1,8 @@
+{
+  "N": 240,
+  "L": 4,
+  "K": 6,
+  "condition": "lfr_sizes_strong",
+  "instance": 5,
+  "family": "LFR_derived"
+}

@@ -1,0 +1,4 @@
+{
+  "original_backend_sha256": "e392507bada534fd2fb306417df83e62ca3b0990946d7d8798af8eaa021505c3",
+  "source": "def state(net):\n    return {name: tensor.detach().clone() for name, tensor in net.state_dict().items()}\n\ndef state_digest(values):\n    h = hashlib.sha256()\n    for name, value in values.items():\n        h.update(name.encode()); h.update(str(tuple(value.shape)).encode())\n        h.update(value.detach().contiguous().numpy().tobytes())\n    return h.hexdigest()\n"
+}

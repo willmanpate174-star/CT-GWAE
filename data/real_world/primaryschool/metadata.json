@@ -1,0 +1,91 @@
+{
+  "name": "primaryschool",
+  "N": 232,
+  "L": 2,
+  "K": 10,
+  "preprocessing": "binary_presence",
+  "format": "CSR arrays per layer; aligned node index 0..N-1",
+  "undirected": true,
+  "zero_diagonal": true,
+  "edge_counts": [
+    5535,
+    5217
+  ],
+  "globally_active_nodes": 232,
+  "has_ground_truth": true,
+  "source": "existing project loader, unchanged node ordering",
+  "label_semantics": "school class",
+  "evaluation_nodes_original_mask": 232,
+  "evaluation_nodes_mask_and_active": 232,
+  "external_labels_used_for_training": false,
+  "source_url": "https://sociopatterns.org/datasets/primary-school-temporal-network-data/",
+  "temporal_rule": "acquisition-day sessions separated by timestamp gaps >6h",
+  "population_rule": "students only; ten Teachers excluded by declared metadata role before graph formation",
+  "m_total": 10752,
+  "m_union": 7856,
+  "nnz_total": 21504,
+  "statistics": {
+    "N": 232,
+    "L": 2,
+    "K": 10,
+    "m_total": 10752,
+    "m_union": 7856,
+    "nnz_total": 21504,
+    "edge_counts": [
+      5535,
+      5217
+    ],
+    "density_multilayer": 0.2006269592476489,
+    "density_union": 0.2931780862815346,
+    "mean_degree_per_layer": 46.3448275862069,
+    "mean_degree_union": 67.72413793103448,
+    "weight_sum_total_undirected": 10752.0,
+    "evaluation_nodes": 232,
+    "evaluation_coverage": 1.0,
+    "globally_isolated_nodes": 0,
+    "union_connected_components": 1,
+    "all_layers_binary": true,
+    "class_counts": {
+      "0": 23,
+      "1": 25,
+      "2": 23,
+      "3": 26,
+      "4": 23,
+      "5": 22,
+      "6": 21,
+      "7": 23,
+      "8": 22,
+      "9": 24
+    },
+    "layers": [
+      {
+        "dataset": "primaryschool",
+        "layer_index": 0,
+        "layer_name": "0",
+        "N": 232,
+        "m_layer": 5535,
+        "nnz": 11070,
+        "density": 0.20656068069861172,
+        "mean_degree": 47.71551724137931,
+        "isolated_nodes": 6,
+        "connected_components": 7,
+        "binary": true,
+        "weight_sum_undirected": 5535.0
+      },
+      {
+        "dataset": "primaryschool",
+        "layer_index": 1,
+        "layer_name": "1",
+        "N": 232,
+        "m_layer": 5217,
+        "nnz": 10434,
+        "density": 0.19469323779668607,
+        "mean_degree": 44.974137931034484,
+        "isolated_nodes": 4,
+        "connected_components": 5,
+        "binary": true,
+        "weight_sum_undirected": 5217.0
+      }
+    ]
+  }
+}

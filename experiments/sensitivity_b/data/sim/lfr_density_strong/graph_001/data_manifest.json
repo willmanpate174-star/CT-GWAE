@@ -1,0 +1,20 @@
+{
+  "status": "adapted_exactly",
+  "source_files_sha256": {
+    "metadata.json": "37d24197108a6b72c6e92873669c18008954890528e01e7e7d7e60a985715377",
+    "conflict_labels.npy": "37abe4e1be969c82c783fcc17cd1bb5431d0b5ea14013f7fb2c31b13e99e271d",
+    "labels.npy": "e4b38ca94049be33bbccf5caf86ae5f306f793b84a681bbfa9d28a1d1ad76ad8",
+    "layer_00.npz": "c3cad13cc872958a0b523c7ff0736e81708c226d77ea08a09f8ee143c657f388",
+    "layer_01.npz": "c5eab0e30826660c40a05a4ce36a0f20d4fbe7a8a061969d624e5ebd71ae8955",
+    "layer_02.npz": "90b080f580a465380ef88b6b9465a4b12d7e13088339863c7950f2da257a46d9",
+    "layer_03.npz": "d1c63034f39c28bbbaff779e00c6fcf398f2ba6ea411afbe0fae103b02bfb640"
+  },
+  "converted_files_sha256": {
+    "graphs.npz": "3fe7ca82984341ba40c406e69bd987dee7d0bca5525b4fb515c899116b4de7b9",
+    "evaluation.npz": "cfb0cc0ed50b497e556db0d34ab122d73cb71178c477caad0a1897264054c6ab",
+    "metadata.json": "5d7b318d4cf905467ef5127162afd0ff12a91c86ae5f0863cee15b79feeb8dec"
+  },
+  "adjacency_verified_equal": true,
+  "truth_verified_equal": true,
+  "labels_for_training": false
+}

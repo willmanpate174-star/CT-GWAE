@@ -1,0 +1,19 @@
+{
+  "N": 10000,
+  "L": 4,
+  "K": 4,
+  "dataset": "sbm_balanced_n10000_g00",
+  "graph_seed": 72020000,
+  "condition": "balanced",
+  "instance": 0,
+  "sizes": [
+    2500,
+    2500,
+    2500,
+    2500
+  ],
+  "f_N": 0.24992499249924993,
+  "p_in": 0.002634406855026937,
+  "p_out": 0.0007222156359050246,
+  "expected_mean_degree": 12
+}

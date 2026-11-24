@@ -1,0 +1,7 @@
+{
+  "dataset": "sim/lfr_density_strong/graph_000",
+  "seed": 51200000,
+  "hard_objective": 0.9066431229243209,
+  "labels_sha256": "4fdad0d0b64d25bf6760fc9c213478bc95796e16f3e95edeea93979cd4ac7e79",
+  "graph_index": 200
+}

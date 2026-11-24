@@ -1,0 +1,8 @@
+{
+  "N": 240,
+  "L": 4,
+  "K": 4,
+  "condition": "density_strong",
+  "instance": 6,
+  "family": "SBM"
+}

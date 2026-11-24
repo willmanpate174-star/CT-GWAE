@@ -1,0 +1,17 @@
+{
+  "test": "Exact two-sided Wilcoxon signed-rank, sign randomization conditional on observed absolute ranks",
+  "sample_unit": "Independent graph;average fixed runs within graph first",
+  "paired_graphs_per_condition": 10,
+  "zero_rule": "Difference rounded to12 decimal places;zero differences omitted (Wilcox)",
+  "ties": "Average ranks",
+  "all_zero_case": "p=1",
+  "alternative": "two-sided",
+  "verification": "All768 p-values checked independently by exhaustive sign enumeration",
+  "multiplicity": "Holm across8 baselines separately within each condition and metric",
+  "conditions": 32,
+  "metrics": 3,
+  "baselines": 8,
+  "comparisons": 768,
+  "previous_7_column": "Recomputed using the same exact rule;not a claim that all historical software settings are recovered",
+  "graph_source_sha256": "2e6d2c09fbee92c82c7e39d4c57f8af3318d2a888aaa96f63796358a76e34d48"
+}

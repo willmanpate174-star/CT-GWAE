@@ -1,0 +1,98 @@
+{
+  "name": "lazega",
+  "N": 71,
+  "L": 3,
+  "K": 3,
+  "preprocessing": "binary_presence",
+  "format": "CSR arrays per layer; aligned node index 0..N-1",
+  "undirected": true,
+  "zero_diagonal": true,
+  "edge_counts": [
+    717,
+    399,
+    726
+  ],
+  "globally_active_nodes": 71,
+  "has_ground_truth": true,
+  "source": "existing project loader, unchanged node ordering",
+  "label_semantics": "office labels, not presumed structural community truth",
+  "evaluation_nodes_original_mask": 71,
+  "evaluation_nodes_mask_and_active": 71,
+  "external_labels_used_for_training": false,
+  "source_url": "https://github.com/CoMuNeLab/Lazega-Law-Firm",
+  "m_total": 1842,
+  "m_union": 1008,
+  "nnz_total": 3684,
+  "statistics": {
+    "N": 71,
+    "L": 3,
+    "K": 3,
+    "m_total": 1842,
+    "m_union": 1008,
+    "nnz_total": 3684,
+    "edge_counts": [
+      717,
+      399,
+      726
+    ],
+    "density_multilayer": 0.2470824949698189,
+    "density_union": 0.4056338028169014,
+    "mean_degree_per_layer": 17.295774647887324,
+    "mean_degree_union": 28.3943661971831,
+    "weight_sum_total_undirected": 1842.0,
+    "evaluation_nodes": 71,
+    "evaluation_coverage": 1.0,
+    "globally_isolated_nodes": 0,
+    "union_connected_components": 1,
+    "all_layers_binary": true,
+    "class_counts": {
+      "0": 48,
+      "1": 19,
+      "2": 4
+    },
+    "layers": [
+      {
+        "dataset": "lazega",
+        "layer_index": 0,
+        "layer_name": "advice",
+        "N": 71,
+        "m_layer": 717,
+        "nnz": 1434,
+        "density": 0.2885311871227364,
+        "mean_degree": 20.197183098591548,
+        "isolated_nodes": 0,
+        "connected_components": 1,
+        "binary": true,
+        "weight_sum_undirected": 717.0
+      },
+      {
+        "dataset": "lazega",
+        "layer_index": 1,
+        "layer_name": "friendship",
+        "N": 71,
+        "m_layer": 399,
+        "nnz": 798,
+        "density": 0.16056338028169015,
+        "mean_degree": 11.23943661971831,
+        "isolated_nodes": 2,
+        "connected_components": 3,
+        "binary": true,
+        "weight_sum_undirected": 399.0
+      },
+      {
+        "dataset": "lazega",
+        "layer_index": 2,
+        "layer_name": "co-work",
+        "N": 71,
+        "m_layer": 726,
+        "nnz": 1452,
+        "density": 0.2921529175050302,
+        "mean_degree": 20.450704225352112,
+        "isolated_nodes": 0,
+        "connected_components": 1,
+        "binary": true,
+        "weight_sum_undirected": 726.0
+      }
+    ]
+  }
+}

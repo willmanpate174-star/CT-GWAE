@@ -1,0 +1,19 @@
+{
+  "N": 5000,
+  "L": 4,
+  "K": 4,
+  "dataset": "sbm_imbalanced_n5000_g02",
+  "graph_seed": 72011002,
+  "condition": "imbalanced",
+  "instance": 2,
+  "sizes": [
+    250,
+    750,
+    1500,
+    2500
+  ],
+  "f_N": 0.36487297459491896,
+  "p_in": 0.004829691683485727,
+  "p_out": 0.0010049267304951287,
+  "expected_mean_degree": 12
+}

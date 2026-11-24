@@ -1,0 +1,95 @@
+{
+  "name": "arxiv_netscience",
+  "N": 14489,
+  "L": 13,
+  "K": 8,
+  "K_semantics": "predeclared case parameter, not a ground-truth class count",
+  "has_ground_truth": false,
+  "global_active_nodes": 14065,
+  "global_isolated_nodes": 424,
+  "edge_rows_in_original_file": 59026,
+  "edges": 59026,
+  "layers": [
+    {
+      "source_layer_id": 1,
+      "edges": 3019,
+      "nnz": 6038,
+      "isolated_nodes": 12895
+    },
+    {
+      "source_layer_id": 2,
+      "edges": 14485,
+      "nnz": 28970,
+      "isolated_nodes": 9024
+    },
+    {
+      "source_layer_id": 3,
+      "edges": 6097,
+      "nnz": 12194,
+      "isolated_nodes": 11533
+    },
+    {
+      "source_layer_id": 4,
+      "edges": 592,
+      "nnz": 1184,
+      "isolated_nodes": 14128
+    },
+    {
+      "source_layer_id": 5,
+      "edges": 4427,
+      "nnz": 8854,
+      "isolated_nodes": 12884
+    },
+    {
+      "source_layer_id": 6,
+      "edges": 7341,
+      "nnz": 14682,
+      "isolated_nodes": 10983
+    },
+    {
+      "source_layer_id": 7,
+      "edges": 2582,
+      "nnz": 5164,
+      "isolated_nodes": 13038
+    },
+    {
+      "source_layer_id": 8,
+      "edges": 4423,
+      "nnz": 8846,
+      "isolated_nodes": 12584
+    },
+    {
+      "source_layer_id": 9,
+      "edges": 868,
+      "nnz": 1736,
+      "isolated_nodes": 13829
+    },
+    {
+      "source_layer_id": 10,
+      "edges": 1145,
+      "nnz": 2290,
+      "isolated_nodes": 13789
+    },
+    {
+      "source_layer_id": 11,
+      "edges": 1953,
+      "nnz": 3906,
+      "isolated_nodes": 13219
+    },
+    {
+      "source_layer_id": 12,
+      "edges": 11600,
+      "nnz": 23200,
+      "isolated_nodes": 9543
+    },
+    {
+      "source_layer_id": 13,
+      "edges": 494,
+      "nnz": 988,
+      "isolated_nodes": 14112
+    }
+  ],
+  "preprocessing": "preserve declared node-ID range 0..14488; union symmetrization; remove diagonal; binary edge presence; raw weights retained in original data",
+  "source": "https://github.com/CoMuNeLab/arXiv-Network-Science-Multiplex",
+  "training_performed": false
+}

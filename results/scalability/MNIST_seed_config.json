@@ -1,0 +1,61 @@
+{
+  "SCML_seeds": [
+    71043000,
+    71043001,
+    71043002,
+    71043003,
+    71043004,
+    71043005,
+    71043006,
+    71043007,
+    71043008,
+    71043009
+  ],
+  "DGFM3_seeds": [
+    71046100,
+    71046200,
+    71046300,
+    71046400,
+    71046500,
+    71046600,
+    71046700,
+    71046800,
+    71046900,
+    71047000
+  ],
+  "SCML_config": {
+    "lambda_": 0.5,
+    "n_init": 500,
+    "km_init": "k-means++",
+    "km_max_iter": 100,
+    "km_tol": 0.0001,
+    "eig_tol": 1e-10,
+    "eig_maxiter": 10000
+  },
+  "DGFM3_config": {
+    "eig_rank": 12,
+    "gamma": 1.2,
+    "omega": 1.0,
+    "dt": 0.4,
+    "max_iter": 300,
+    "tol": 1e-08,
+    "starts": 20,
+    "eig_tol": 1e-10,
+    "eig_maxiter": 10000,
+    "selection": "maximum multiplex modularity",
+    "reference_config": "author S2_GT_MP_networks.m default 3sources"
+  },
+  "CT_seed": "62043000+100*r+j, r,j0..9",
+  "CT_selected": [
+    62043000,
+    62043102,
+    62043201,
+    62043301,
+    62043408,
+    62043509,
+    62043604,
+    62043708,
+    62043801,
+    62043904
+  ]
+}

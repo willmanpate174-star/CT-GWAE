@@ -1,0 +1,7 @@
+{
+  "CT_candidates_trained": 100,
+  "selected_checkpoints_independent_replay_passed": 10,
+  "unselected_strict_replay_pending": 6,
+  "reference_predictions": 30,
+  "does_not_mark_all100_replay_passed": true
+}

@@ -1,0 +1,56 @@
+[
+  {
+    "id": "pilot/case00",
+    "dataset": "aucs",
+    "variant": "Full",
+    "lambda_rho": 0.02,
+    "S_train": 24,
+    "round": 0,
+    "seed_base": 41000000
+  },
+  {
+    "id": "pilot/case01",
+    "dataset": "aucs",
+    "variant": "Full",
+    "lambda_rho": 0,
+    "S_train": 24,
+    "round": 0,
+    "seed_base": 41000000
+  },
+  {
+    "id": "pilot/case02",
+    "dataset": "aucs",
+    "variant": "Full",
+    "lambda_rho": 0.1,
+    "S_train": 24,
+    "round": 0,
+    "seed_base": 41000000
+  },
+  {
+    "id": "pilot/case03",
+    "dataset": "sim/lfr_density_strong/graph_000",
+    "variant": "Full",
+    "lambda_rho": 0.02,
+    "S_train": 24,
+    "round": 0,
+    "seed_base": 51200000
+  },
+  {
+    "id": "pilot/case04",
+    "dataset": "sim/lfr_density_strong/graph_000",
+    "variant": "no_dist_norm",
+    "lambda_rho": 0.02,
+    "S_train": 24,
+    "round": 0,
+    "seed_base": 51200000
+  },
+  {
+    "id": "pilot/case05",
+    "dataset": "sim/lfr_sizes_strong/graph_000",
+    "variant": "no_mass_correction",
+    "lambda_rho": 0.02,
+    "S_train": 24,
+    "round": 0,
+    "seed_base": 51280000
+  }
+]

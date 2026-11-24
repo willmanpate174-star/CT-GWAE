@@ -1,0 +1,8 @@
+{
+  "dataset": "aucs",
+  "seed": 41000000,
+  "hard_objective": 0.7863209734708928,
+  "labels_sha256": "fc8eefa2e04d0bccf5a7adb8f578956f8cfcda48f87ee62fbc783ed93020cb63",
+  "source_candidate": "aucs/original-control/restored/r00/j00",
+  "source_file": "selection20.json"
+}

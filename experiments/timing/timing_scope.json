@@ -1,0 +1,14 @@
+{
+  "metric": "sum of process CPU seconds inside600original protected proposals",
+  "includes": "same original S24 gradient/primal evaluations, backward pass, optimizer/recovery and in-memory checks",
+  "excludes": "imports, input loading, cold initialization, external serialization, resource sampling, final S100 and replay",
+  "second_metric": "sum of wall seconds over the same protected proposal intervals",
+  "not_end_to_end_wall_time": true,
+  "training_threads": 1,
+  "statistics": "five fixed independent graphs per size and condition; mean and sample SD",
+  "hardware": "one physical node/model/logicalCPU; same allocation, fixed one-thread numerical environment",
+  "isolation": "20CPUslots reserved; full-node exclusion of other users is not assumed",
+  "assumes_linear_before_measurement": false,
+  "old_COOruntimes_pooled": false,
+  "comparison": "a new complete timing repeat; original results remain archived"
+}

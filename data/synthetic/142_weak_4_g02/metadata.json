@@ -1,0 +1,8 @@
+{
+  "N": 240,
+  "L": 8,
+  "K": 4,
+  "condition": "weak_4",
+  "instance": 2,
+  "family": "SBM"
+}

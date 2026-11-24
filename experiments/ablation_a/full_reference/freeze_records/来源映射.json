@@ -1,0 +1,22 @@
+{
+  "original_formal_candidate_manifest.json": {
+    "sha256": "4a850fb64d12ac746b6f7bc54d273f6707a402a43932258c45f01fd54dfaae99",
+    "original_path": "C:/Users/Dingjunhao/Documents/李慧嘉论文/准备_20261008_最终600预算正式41m900执行静态/candidate_manifest.json"
+  },
+  "模型与正式实验协议.json": {
+    "sha256": "3ee88b946d49a9dae947c49eb53396f2c24dae696b7e8772c63c27bda453613c",
+    "original_path": "C:\\Users\\Dingjunhao\\Documents\\李慧嘉论文\\冻结_20261008_V8逐层单GW_600已知K正式协议\\模型与正式实验协议.json"
+  },
+  "postfreeze_readback.json": {
+    "sha256": "09a4457d9dd84d1d51408c071bfb17952d3c2bfa1e27f7dd13cf0a637f801f1a",
+    "original_path": "C:\\Users\\Dingjunhao\\Documents\\李慧嘉论文\\冻结_20261008_V8逐层单GW_600已知K正式协议\\postfreeze_readback.json"
+  },
+  "最终模型与正式评价决定.json": {
+    "sha256": "bd38289a90ce10e71ea2286246afa5dc5a6772829dffdd3a37c09f341b546d50",
+    "original_path": "C:\\Users\\Dingjunhao\\Documents\\李慧嘉论文\\冻结_20261008_V8逐层单GW_600已知K正式协议\\最终模型与正式评价决定.json"
+  },
+  "freeze_certificate.json": {
+    "sha256": "1235154a1005e3fe50b608e856d030459c227f52a10322bf4695d2aebeddead0",
+    "original_path": "C:\\Users\\Dingjunhao\\Documents\\李慧嘉论文\\冻结_20261008_V8逐层单GW_600已知K正式协议\\freeze_certificate.json"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "status": "adapted_exactly",
+  "source_files_sha256": {
+    "metadata.json": "3b1ebe302c8010d06da2169ad9541a51928f2ef94b6858d8bd6133a0351609e6",
+    "conflict_labels.npy": "0d7898ebbad70736a2f387beec95f17abf3dc7a734e44e1ba69636d3a8de10fa",
+    "labels.npy": "f817d03cedeac85368d310a4f7a17e901f14a1c3b01686c3bb84294e5cdc51d4",
+    "layer_00.npz": "5e760d43445881c566c4773a2b1271f5fcb3f4cbd2e20c954518b461c18f2afc",
+    "layer_01.npz": "693d615db811667161c6ea3d016ec9ff30656a7c39ad37733406e3b6fe26262d",
+    "layer_02.npz": "9c6510e98b14ef25d1858ef976a6a97256d9bf2b872b864c45fee40fb9966d81",
+    "layer_03.npz": "a6cbb91dcb6f13aa0f1c5fc035f1dcffc7aad63a3ce958b099aa08ec4ffbd460"
+  },
+  "converted_files_sha256": {
+    "graphs.npz": "8cf7bd6eceaa4c9b18227b2fdab129f64abf83144cd6fda13a5436e6b6487edf",
+    "evaluation.npz": "f743178825108b16b03b5ccb86a28ab176e2f2fb6ffec5743dd3be9c6ae0d2b8",
+    "metadata.json": "939b8c952e8ebf81592be3cd8a59b13a9bd4170943ee52a451d7c591dbf3b0f7"
+  },
+  "adjacency_verified_equal": true,
+  "truth_verified_equal": true,
+  "labels_for_training": false
+}

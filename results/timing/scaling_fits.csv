@@ -1,0 +1,3 @@
+﻿condition,scale_means,graphs_per_mean,power_exponent,power_prefactor,log_fit_R_squared,interpretation
+balanced,5,5,1.0779942883496427,0.0747492940204619,0.9769661167022463,Descriptive fit to all five scale means
+imbalanced,5,5,0.9026001962207467,0.5879955874483023,0.9616597669982178,Descriptive fit to all five scale means

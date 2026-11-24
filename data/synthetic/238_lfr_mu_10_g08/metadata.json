@@ -1,0 +1,8 @@
+{
+  "N": 240,
+  "L": 4,
+  "K": 6,
+  "condition": "lfr_mu_10",
+  "instance": 8,
+  "family": "LFR_derived"
+}

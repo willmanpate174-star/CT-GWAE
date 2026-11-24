@@ -1,0 +1,11 @@
+{
+  "A": "同伴",
+  "B": "用户本人",
+  "this_package": "B",
+  "name": "B组实验包",
+  "formal_candidates": 2000,
+  "proposals_per_candidate": 600,
+  "formal_proposals": 1200000,
+  "lambda_candidates": 1000,
+  "mechanism_candidates": 1000
+}

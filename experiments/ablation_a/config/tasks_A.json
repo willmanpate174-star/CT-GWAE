@@ -1,0 +1,2002 @@
+[
+  {
+    "id": "ablation/aucs/shared_coeff/r00",
+    "kind": "ablation",
+    "dataset": "aucs",
+    "variant": "shared_coeff",
+    "S_train": 24,
+    "round": 0,
+    "canonical_index": 0,
+    "seed_base": 41000000
+  },
+  {
+    "id": "ablation/aucs/shared_coeff/r01",
+    "kind": "ablation",
+    "dataset": "aucs",
+    "variant": "shared_coeff",
+    "S_train": 24,
+    "round": 1,
+    "canonical_index": 0,
+    "seed_base": 41000000
+  },
+  {
+    "id": "ablation/aucs/shared_coeff/r02",
+    "kind": "ablation",
+    "dataset": "aucs",
+    "variant": "shared_coeff",
+    "S_train": 24,
+    "round": 2,
+    "canonical_index": 0,
+    "seed_base": 41000000
+  },
+  {
+    "id": "ablation/aucs/shared_coeff/r03",
+    "kind": "ablation",
+    "dataset": "aucs",
+    "variant": "shared_coeff",
+    "S_train": 24,
+    "round": 3,
+    "canonical_index": 0,
+    "seed_base": 41000000
+  },
+  {
+    "id": "ablation/aucs/shared_coeff/r04",
+    "kind": "ablation",
+    "dataset": "aucs",
+    "variant": "shared_coeff",
+    "S_train": 24,
+    "round": 4,
+    "canonical_index": 0,
+    "seed_base": 41000000
+  },
+  {
+    "id": "ablation/aucs/shared_coeff/r05",
+    "kind": "ablation",
+    "dataset": "aucs",
+    "variant": "shared_coeff",
+    "S_train": 24,
+    "round": 5,
+    "canonical_index": 0,
+    "seed_base": 41000000
+  },
+  {
+    "id": "ablation/aucs/shared_coeff/r06",
+    "kind": "ablation",
+    "dataset": "aucs",
+    "variant": "shared_coeff",
+    "S_train": 24,
+    "round": 6,
+    "canonical_index": 0,
+    "seed_base": 41000000
+  },
+  {
+    "id": "ablation/aucs/shared_coeff/r07",
+    "kind": "ablation",
+    "dataset": "aucs",
+    "variant": "shared_coeff",
+    "S_train": 24,
+    "round": 7,
+    "canonical_index": 0,
+    "seed_base": 41000000
+  },
+  {
+    "id": "ablation/aucs/shared_coeff/r08",
+    "kind": "ablation",
+    "dataset": "aucs",
+    "variant": "shared_coeff",
+    "S_train": 24,
+    "round": 8,
+    "canonical_index": 0,
+    "seed_base": 41000000
+  },
+  {
+    "id": "ablation/aucs/shared_coeff/r09",
+    "kind": "ablation",
+    "dataset": "aucs",
+    "variant": "shared_coeff",
+    "S_train": 24,
+    "round": 9,
+    "canonical_index": 0,
+    "seed_base": 41000000
+  },
+  {
+    "id": "ablation/aucs/no_dist_norm/r00",
+    "kind": "ablation",
+    "dataset": "aucs",
+    "variant": "no_dist_norm",
+    "S_train": 24,
+    "round": 0,
+    "canonical_index": 0,
+    "seed_base": 41000000
+  },
+  {
+    "id": "ablation/aucs/no_dist_norm/r01",
+    "kind": "ablation",
+    "dataset": "aucs",
+    "variant": "no_dist_norm",
+    "S_train": 24,
+    "round": 1,
+    "canonical_index": 0,
+    "seed_base": 41000000
+  },
+  {
+    "id": "ablation/aucs/no_dist_norm/r02",
+    "kind": "ablation",
+    "dataset": "aucs",
+    "variant": "no_dist_norm",
+    "S_train": 24,
+    "round": 2,
+    "canonical_index": 0,
+    "seed_base": 41000000
+  },
+  {
+    "id": "ablation/aucs/no_dist_norm/r03",
+    "kind": "ablation",
+    "dataset": "aucs",
+    "variant": "no_dist_norm",
+    "S_train": 24,
+    "round": 3,
+    "canonical_index": 0,
+    "seed_base": 41000000
+  },
+  {
+    "id": "ablation/aucs/no_dist_norm/r04",
+    "kind": "ablation",
+    "dataset": "aucs",
+    "variant": "no_dist_norm",
+    "S_train": 24,
+    "round": 4,
+    "canonical_index": 0,
+    "seed_base": 41000000
+  },
+  {
+    "id": "ablation/aucs/no_dist_norm/r05",
+    "kind": "ablation",
+    "dataset": "aucs",
+    "variant": "no_dist_norm",
+    "S_train": 24,
+    "round": 5,
+    "canonical_index": 0,
+    "seed_base": 41000000
+  },
+  {
+    "id": "ablation/aucs/no_dist_norm/r06",
+    "kind": "ablation",
+    "dataset": "aucs",
+    "variant": "no_dist_norm",
+    "S_train": 24,
+    "round": 6,
+    "canonical_index": 0,
+    "seed_base": 41000000
+  },
+  {
+    "id": "ablation/aucs/no_dist_norm/r07",
+    "kind": "ablation",
+    "dataset": "aucs",
+    "variant": "no_dist_norm",
+    "S_train": 24,
+    "round": 7,
+    "canonical_index": 0,
+    "seed_base": 41000000
+  },
+  {
+    "id": "ablation/aucs/no_dist_norm/r08",
+    "kind": "ablation",
+    "dataset": "aucs",
+    "variant": "no_dist_norm",
+    "S_train": 24,
+    "round": 8,
+    "canonical_index": 0,
+    "seed_base": 41000000
+  },
+  {
+    "id": "ablation/aucs/no_dist_norm/r09",
+    "kind": "ablation",
+    "dataset": "aucs",
+    "variant": "no_dist_norm",
+    "S_train": 24,
+    "round": 9,
+    "canonical_index": 0,
+    "seed_base": 41000000
+  },
+  {
+    "id": "ablation/aucs/no_mass_correction/r00",
+    "kind": "ablation",
+    "dataset": "aucs",
+    "variant": "no_mass_correction",
+    "S_train": 24,
+    "round": 0,
+    "canonical_index": 0,
+    "seed_base": 41000000
+  },
+  {
+    "id": "ablation/aucs/no_mass_correction/r01",
+    "kind": "ablation",
+    "dataset": "aucs",
+    "variant": "no_mass_correction",
+    "S_train": 24,
+    "round": 1,
+    "canonical_index": 0,
+    "seed_base": 41000000
+  },
+  {
+    "id": "ablation/aucs/no_mass_correction/r02",
+    "kind": "ablation",
+    "dataset": "aucs",
+    "variant": "no_mass_correction",
+    "S_train": 24,
+    "round": 2,
+    "canonical_index": 0,
+    "seed_base": 41000000
+  },
+  {
+    "id": "ablation/aucs/no_mass_correction/r03",
+    "kind": "ablation",
+    "dataset": "aucs",
+    "variant": "no_mass_correction",
+    "S_train": 24,
+    "round": 3,
+    "canonical_index": 0,
+    "seed_base": 41000000
+  },
+  {
+    "id": "ablation/aucs/no_mass_correction/r04",
+    "kind": "ablation",
+    "dataset": "aucs",
+    "variant": "no_mass_correction",
+    "S_train": 24,
+    "round": 4,
+    "canonical_index": 0,
+    "seed_base": 41000000
+  },
+  {
+    "id": "ablation/aucs/no_mass_correction/r05",
+    "kind": "ablation",
+    "dataset": "aucs",
+    "variant": "no_mass_correction",
+    "S_train": 24,
+    "round": 5,
+    "canonical_index": 0,
+    "seed_base": 41000000
+  },
+  {
+    "id": "ablation/aucs/no_mass_correction/r06",
+    "kind": "ablation",
+    "dataset": "aucs",
+    "variant": "no_mass_correction",
+    "S_train": 24,
+    "round": 6,
+    "canonical_index": 0,
+    "seed_base": 41000000
+  },
+  {
+    "id": "ablation/aucs/no_mass_correction/r07",
+    "kind": "ablation",
+    "dataset": "aucs",
+    "variant": "no_mass_correction",
+    "S_train": 24,
+    "round": 7,
+    "canonical_index": 0,
+    "seed_base": 41000000
+  },
+  {
+    "id": "ablation/aucs/no_mass_correction/r08",
+    "kind": "ablation",
+    "dataset": "aucs",
+    "variant": "no_mass_correction",
+    "S_train": 24,
+    "round": 8,
+    "canonical_index": 0,
+    "seed_base": 41000000
+  },
+  {
+    "id": "ablation/aucs/no_mass_correction/r09",
+    "kind": "ablation",
+    "dataset": "aucs",
+    "variant": "no_mass_correction",
+    "S_train": 24,
+    "round": 9,
+    "canonical_index": 0,
+    "seed_base": 41000000
+  },
+  {
+    "id": "ablation/ckm/shared_coeff/r00",
+    "kind": "ablation",
+    "dataset": "ckm",
+    "variant": "shared_coeff",
+    "S_train": 24,
+    "round": 0,
+    "canonical_index": 4,
+    "seed_base": 41040000
+  },
+  {
+    "id": "ablation/ckm/shared_coeff/r01",
+    "kind": "ablation",
+    "dataset": "ckm",
+    "variant": "shared_coeff",
+    "S_train": 24,
+    "round": 1,
+    "canonical_index": 4,
+    "seed_base": 41040000
+  },
+  {
+    "id": "ablation/ckm/shared_coeff/r02",
+    "kind": "ablation",
+    "dataset": "ckm",
+    "variant": "shared_coeff",
+    "S_train": 24,
+    "round": 2,
+    "canonical_index": 4,
+    "seed_base": 41040000
+  },
+  {
+    "id": "ablation/ckm/shared_coeff/r03",
+    "kind": "ablation",
+    "dataset": "ckm",
+    "variant": "shared_coeff",
+    "S_train": 24,
+    "round": 3,
+    "canonical_index": 4,
+    "seed_base": 41040000
+  },
+  {
+    "id": "ablation/ckm/shared_coeff/r04",
+    "kind": "ablation",
+    "dataset": "ckm",
+    "variant": "shared_coeff",
+    "S_train": 24,
+    "round": 4,
+    "canonical_index": 4,
+    "seed_base": 41040000
+  },
+  {
+    "id": "ablation/ckm/shared_coeff/r05",
+    "kind": "ablation",
+    "dataset": "ckm",
+    "variant": "shared_coeff",
+    "S_train": 24,
+    "round": 5,
+    "canonical_index": 4,
+    "seed_base": 41040000
+  },
+  {
+    "id": "ablation/ckm/shared_coeff/r06",
+    "kind": "ablation",
+    "dataset": "ckm",
+    "variant": "shared_coeff",
+    "S_train": 24,
+    "round": 6,
+    "canonical_index": 4,
+    "seed_base": 41040000
+  },
+  {
+    "id": "ablation/ckm/shared_coeff/r07",
+    "kind": "ablation",
+    "dataset": "ckm",
+    "variant": "shared_coeff",
+    "S_train": 24,
+    "round": 7,
+    "canonical_index": 4,
+    "seed_base": 41040000
+  },
+  {
+    "id": "ablation/ckm/shared_coeff/r08",
+    "kind": "ablation",
+    "dataset": "ckm",
+    "variant": "shared_coeff",
+    "S_train": 24,
+    "round": 8,
+    "canonical_index": 4,
+    "seed_base": 41040000
+  },
+  {
+    "id": "ablation/ckm/shared_coeff/r09",
+    "kind": "ablation",
+    "dataset": "ckm",
+    "variant": "shared_coeff",
+    "S_train": 24,
+    "round": 9,
+    "canonical_index": 4,
+    "seed_base": 41040000
+  },
+  {
+    "id": "ablation/ckm/no_dist_norm/r00",
+    "kind": "ablation",
+    "dataset": "ckm",
+    "variant": "no_dist_norm",
+    "S_train": 24,
+    "round": 0,
+    "canonical_index": 4,
+    "seed_base": 41040000
+  },
+  {
+    "id": "ablation/ckm/no_dist_norm/r01",
+    "kind": "ablation",
+    "dataset": "ckm",
+    "variant": "no_dist_norm",
+    "S_train": 24,
+    "round": 1,
+    "canonical_index": 4,
+    "seed_base": 41040000
+  },
+  {
+    "id": "ablation/ckm/no_dist_norm/r02",
+    "kind": "ablation",
+    "dataset": "ckm",
+    "variant": "no_dist_norm",
+    "S_train": 24,
+    "round": 2,
+    "canonical_index": 4,
+    "seed_base": 41040000
+  },
+  {
+    "id": "ablation/ckm/no_dist_norm/r03",
+    "kind": "ablation",
+    "dataset": "ckm",
+    "variant": "no_dist_norm",
+    "S_train": 24,
+    "round": 3,
+    "canonical_index": 4,
+    "seed_base": 41040000
+  },
+  {
+    "id": "ablation/ckm/no_dist_norm/r04",
+    "kind": "ablation",
+    "dataset": "ckm",
+    "variant": "no_dist_norm",
+    "S_train": 24,
+    "round": 4,
+    "canonical_index": 4,
+    "seed_base": 41040000
+  },
+  {
+    "id": "ablation/ckm/no_dist_norm/r05",
+    "kind": "ablation",
+    "dataset": "ckm",
+    "variant": "no_dist_norm",
+    "S_train": 24,
+    "round": 5,
+    "canonical_index": 4,
+    "seed_base": 41040000
+  },
+  {
+    "id": "ablation/ckm/no_dist_norm/r06",
+    "kind": "ablation",
+    "dataset": "ckm",
+    "variant": "no_dist_norm",
+    "S_train": 24,
+    "round": 6,
+    "canonical_index": 4,
+    "seed_base": 41040000
+  },
+  {
+    "id": "ablation/ckm/no_dist_norm/r07",
+    "kind": "ablation",
+    "dataset": "ckm",
+    "variant": "no_dist_norm",
+    "S_train": 24,
+    "round": 7,
+    "canonical_index": 4,
+    "seed_base": 41040000
+  },
+  {
+    "id": "ablation/ckm/no_dist_norm/r08",
+    "kind": "ablation",
+    "dataset": "ckm",
+    "variant": "no_dist_norm",
+    "S_train": 24,
+    "round": 8,
+    "canonical_index": 4,
+    "seed_base": 41040000
+  },
+  {
+    "id": "ablation/ckm/no_dist_norm/r09",
+    "kind": "ablation",
+    "dataset": "ckm",
+    "variant": "no_dist_norm",
+    "S_train": 24,
+    "round": 9,
+    "canonical_index": 4,
+    "seed_base": 41040000
+  },
+  {
+    "id": "ablation/ckm/no_mass_correction/r00",
+    "kind": "ablation",
+    "dataset": "ckm",
+    "variant": "no_mass_correction",
+    "S_train": 24,
+    "round": 0,
+    "canonical_index": 4,
+    "seed_base": 41040000
+  },
+  {
+    "id": "ablation/ckm/no_mass_correction/r01",
+    "kind": "ablation",
+    "dataset": "ckm",
+    "variant": "no_mass_correction",
+    "S_train": 24,
+    "round": 1,
+    "canonical_index": 4,
+    "seed_base": 41040000
+  },
+  {
+    "id": "ablation/ckm/no_mass_correction/r02",
+    "kind": "ablation",
+    "dataset": "ckm",
+    "variant": "no_mass_correction",
+    "S_train": 24,
+    "round": 2,
+    "canonical_index": 4,
+    "seed_base": 41040000
+  },
+  {
+    "id": "ablation/ckm/no_mass_correction/r03",
+    "kind": "ablation",
+    "dataset": "ckm",
+    "variant": "no_mass_correction",
+    "S_train": 24,
+    "round": 3,
+    "canonical_index": 4,
+    "seed_base": 41040000
+  },
+  {
+    "id": "ablation/ckm/no_mass_correction/r04",
+    "kind": "ablation",
+    "dataset": "ckm",
+    "variant": "no_mass_correction",
+    "S_train": 24,
+    "round": 4,
+    "canonical_index": 4,
+    "seed_base": 41040000
+  },
+  {
+    "id": "ablation/ckm/no_mass_correction/r05",
+    "kind": "ablation",
+    "dataset": "ckm",
+    "variant": "no_mass_correction",
+    "S_train": 24,
+    "round": 5,
+    "canonical_index": 4,
+    "seed_base": 41040000
+  },
+  {
+    "id": "ablation/ckm/no_mass_correction/r06",
+    "kind": "ablation",
+    "dataset": "ckm",
+    "variant": "no_mass_correction",
+    "S_train": 24,
+    "round": 6,
+    "canonical_index": 4,
+    "seed_base": 41040000
+  },
+  {
+    "id": "ablation/ckm/no_mass_correction/r07",
+    "kind": "ablation",
+    "dataset": "ckm",
+    "variant": "no_mass_correction",
+    "S_train": 24,
+    "round": 7,
+    "canonical_index": 4,
+    "seed_base": 41040000
+  },
+  {
+    "id": "ablation/ckm/no_mass_correction/r08",
+    "kind": "ablation",
+    "dataset": "ckm",
+    "variant": "no_mass_correction",
+    "S_train": 24,
+    "round": 8,
+    "canonical_index": 4,
+    "seed_base": 41040000
+  },
+  {
+    "id": "ablation/ckm/no_mass_correction/r09",
+    "kind": "ablation",
+    "dataset": "ckm",
+    "variant": "no_mass_correction",
+    "S_train": 24,
+    "round": 9,
+    "canonical_index": 4,
+    "seed_base": 41040000
+  },
+  {
+    "id": "ablation/dkpol/shared_coeff/r00",
+    "kind": "ablation",
+    "dataset": "dkpol",
+    "variant": "shared_coeff",
+    "S_train": 24,
+    "round": 0,
+    "canonical_index": 1,
+    "seed_base": 41010000
+  },
+  {
+    "id": "ablation/dkpol/shared_coeff/r01",
+    "kind": "ablation",
+    "dataset": "dkpol",
+    "variant": "shared_coeff",
+    "S_train": 24,
+    "round": 1,
+    "canonical_index": 1,
+    "seed_base": 41010000
+  },
+  {
+    "id": "ablation/dkpol/shared_coeff/r02",
+    "kind": "ablation",
+    "dataset": "dkpol",
+    "variant": "shared_coeff",
+    "S_train": 24,
+    "round": 2,
+    "canonical_index": 1,
+    "seed_base": 41010000
+  },
+  {
+    "id": "ablation/dkpol/shared_coeff/r03",
+    "kind": "ablation",
+    "dataset": "dkpol",
+    "variant": "shared_coeff",
+    "S_train": 24,
+    "round": 3,
+    "canonical_index": 1,
+    "seed_base": 41010000
+  },
+  {
+    "id": "ablation/dkpol/shared_coeff/r04",
+    "kind": "ablation",
+    "dataset": "dkpol",
+    "variant": "shared_coeff",
+    "S_train": 24,
+    "round": 4,
+    "canonical_index": 1,
+    "seed_base": 41010000
+  },
+  {
+    "id": "ablation/dkpol/shared_coeff/r05",
+    "kind": "ablation",
+    "dataset": "dkpol",
+    "variant": "shared_coeff",
+    "S_train": 24,
+    "round": 5,
+    "canonical_index": 1,
+    "seed_base": 41010000
+  },
+  {
+    "id": "ablation/dkpol/shared_coeff/r06",
+    "kind": "ablation",
+    "dataset": "dkpol",
+    "variant": "shared_coeff",
+    "S_train": 24,
+    "round": 6,
+    "canonical_index": 1,
+    "seed_base": 41010000
+  },
+  {
+    "id": "ablation/dkpol/shared_coeff/r07",
+    "kind": "ablation",
+    "dataset": "dkpol",
+    "variant": "shared_coeff",
+    "S_train": 24,
+    "round": 7,
+    "canonical_index": 1,
+    "seed_base": 41010000
+  },
+  {
+    "id": "ablation/dkpol/shared_coeff/r08",
+    "kind": "ablation",
+    "dataset": "dkpol",
+    "variant": "shared_coeff",
+    "S_train": 24,
+    "round": 8,
+    "canonical_index": 1,
+    "seed_base": 41010000
+  },
+  {
+    "id": "ablation/dkpol/shared_coeff/r09",
+    "kind": "ablation",
+    "dataset": "dkpol",
+    "variant": "shared_coeff",
+    "S_train": 24,
+    "round": 9,
+    "canonical_index": 1,
+    "seed_base": 41010000
+  },
+  {
+    "id": "ablation/dkpol/no_dist_norm/r00",
+    "kind": "ablation",
+    "dataset": "dkpol",
+    "variant": "no_dist_norm",
+    "S_train": 24,
+    "round": 0,
+    "canonical_index": 1,
+    "seed_base": 41010000
+  },
+  {
+    "id": "ablation/dkpol/no_dist_norm/r01",
+    "kind": "ablation",
+    "dataset": "dkpol",
+    "variant": "no_dist_norm",
+    "S_train": 24,
+    "round": 1,
+    "canonical_index": 1,
+    "seed_base": 41010000
+  },
+  {
+    "id": "ablation/dkpol/no_dist_norm/r02",
+    "kind": "ablation",
+    "dataset": "dkpol",
+    "variant": "no_dist_norm",
+    "S_train": 24,
+    "round": 2,
+    "canonical_index": 1,
+    "seed_base": 41010000
+  },
+  {
+    "id": "ablation/dkpol/no_dist_norm/r03",
+    "kind": "ablation",
+    "dataset": "dkpol",
+    "variant": "no_dist_norm",
+    "S_train": 24,
+    "round": 3,
+    "canonical_index": 1,
+    "seed_base": 41010000
+  },
+  {
+    "id": "ablation/dkpol/no_dist_norm/r04",
+    "kind": "ablation",
+    "dataset": "dkpol",
+    "variant": "no_dist_norm",
+    "S_train": 24,
+    "round": 4,
+    "canonical_index": 1,
+    "seed_base": 41010000
+  },
+  {
+    "id": "ablation/dkpol/no_dist_norm/r05",
+    "kind": "ablation",
+    "dataset": "dkpol",
+    "variant": "no_dist_norm",
+    "S_train": 24,
+    "round": 5,
+    "canonical_index": 1,
+    "seed_base": 41010000
+  },
+  {
+    "id": "ablation/dkpol/no_dist_norm/r06",
+    "kind": "ablation",
+    "dataset": "dkpol",
+    "variant": "no_dist_norm",
+    "S_train": 24,
+    "round": 6,
+    "canonical_index": 1,
+    "seed_base": 41010000
+  },
+  {
+    "id": "ablation/dkpol/no_dist_norm/r07",
+    "kind": "ablation",
+    "dataset": "dkpol",
+    "variant": "no_dist_norm",
+    "S_train": 24,
+    "round": 7,
+    "canonical_index": 1,
+    "seed_base": 41010000
+  },
+  {
+    "id": "ablation/dkpol/no_dist_norm/r08",
+    "kind": "ablation",
+    "dataset": "dkpol",
+    "variant": "no_dist_norm",
+    "S_train": 24,
+    "round": 8,
+    "canonical_index": 1,
+    "seed_base": 41010000
+  },
+  {
+    "id": "ablation/dkpol/no_dist_norm/r09",
+    "kind": "ablation",
+    "dataset": "dkpol",
+    "variant": "no_dist_norm",
+    "S_train": 24,
+    "round": 9,
+    "canonical_index": 1,
+    "seed_base": 41010000
+  },
+  {
+    "id": "ablation/dkpol/no_mass_correction/r00",
+    "kind": "ablation",
+    "dataset": "dkpol",
+    "variant": "no_mass_correction",
+    "S_train": 24,
+    "round": 0,
+    "canonical_index": 1,
+    "seed_base": 41010000
+  },
+  {
+    "id": "ablation/dkpol/no_mass_correction/r01",
+    "kind": "ablation",
+    "dataset": "dkpol",
+    "variant": "no_mass_correction",
+    "S_train": 24,
+    "round": 1,
+    "canonical_index": 1,
+    "seed_base": 41010000
+  },
+  {
+    "id": "ablation/dkpol/no_mass_correction/r02",
+    "kind": "ablation",
+    "dataset": "dkpol",
+    "variant": "no_mass_correction",
+    "S_train": 24,
+    "round": 2,
+    "canonical_index": 1,
+    "seed_base": 41010000
+  },
+  {
+    "id": "ablation/dkpol/no_mass_correction/r03",
+    "kind": "ablation",
+    "dataset": "dkpol",
+    "variant": "no_mass_correction",
+    "S_train": 24,
+    "round": 3,
+    "canonical_index": 1,
+    "seed_base": 41010000
+  },
+  {
+    "id": "ablation/dkpol/no_mass_correction/r04",
+    "kind": "ablation",
+    "dataset": "dkpol",
+    "variant": "no_mass_correction",
+    "S_train": 24,
+    "round": 4,
+    "canonical_index": 1,
+    "seed_base": 41010000
+  },
+  {
+    "id": "ablation/dkpol/no_mass_correction/r05",
+    "kind": "ablation",
+    "dataset": "dkpol",
+    "variant": "no_mass_correction",
+    "S_train": 24,
+    "round": 5,
+    "canonical_index": 1,
+    "seed_base": 41010000
+  },
+  {
+    "id": "ablation/dkpol/no_mass_correction/r06",
+    "kind": "ablation",
+    "dataset": "dkpol",
+    "variant": "no_mass_correction",
+    "S_train": 24,
+    "round": 6,
+    "canonical_index": 1,
+    "seed_base": 41010000
+  },
+  {
+    "id": "ablation/dkpol/no_mass_correction/r07",
+    "kind": "ablation",
+    "dataset": "dkpol",
+    "variant": "no_mass_correction",
+    "S_train": 24,
+    "round": 7,
+    "canonical_index": 1,
+    "seed_base": 41010000
+  },
+  {
+    "id": "ablation/dkpol/no_mass_correction/r08",
+    "kind": "ablation",
+    "dataset": "dkpol",
+    "variant": "no_mass_correction",
+    "S_train": 24,
+    "round": 8,
+    "canonical_index": 1,
+    "seed_base": 41010000
+  },
+  {
+    "id": "ablation/dkpol/no_mass_correction/r09",
+    "kind": "ablation",
+    "dataset": "dkpol",
+    "variant": "no_mass_correction",
+    "S_train": 24,
+    "round": 9,
+    "canonical_index": 1,
+    "seed_base": 41010000
+  },
+  {
+    "id": "ablation/workplace/shared_coeff/r00",
+    "kind": "ablation",
+    "dataset": "workplace",
+    "variant": "shared_coeff",
+    "S_train": 24,
+    "round": 0,
+    "canonical_index": 7,
+    "seed_base": 41070000
+  },
+  {
+    "id": "ablation/workplace/shared_coeff/r01",
+    "kind": "ablation",
+    "dataset": "workplace",
+    "variant": "shared_coeff",
+    "S_train": 24,
+    "round": 1,
+    "canonical_index": 7,
+    "seed_base": 41070000
+  },
+  {
+    "id": "ablation/workplace/shared_coeff/r02",
+    "kind": "ablation",
+    "dataset": "workplace",
+    "variant": "shared_coeff",
+    "S_train": 24,
+    "round": 2,
+    "canonical_index": 7,
+    "seed_base": 41070000
+  },
+  {
+    "id": "ablation/workplace/shared_coeff/r03",
+    "kind": "ablation",
+    "dataset": "workplace",
+    "variant": "shared_coeff",
+    "S_train": 24,
+    "round": 3,
+    "canonical_index": 7,
+    "seed_base": 41070000
+  },
+  {
+    "id": "ablation/workplace/shared_coeff/r04",
+    "kind": "ablation",
+    "dataset": "workplace",
+    "variant": "shared_coeff",
+    "S_train": 24,
+    "round": 4,
+    "canonical_index": 7,
+    "seed_base": 41070000
+  },
+  {
+    "id": "ablation/workplace/shared_coeff/r05",
+    "kind": "ablation",
+    "dataset": "workplace",
+    "variant": "shared_coeff",
+    "S_train": 24,
+    "round": 5,
+    "canonical_index": 7,
+    "seed_base": 41070000
+  },
+  {
+    "id": "ablation/workplace/shared_coeff/r06",
+    "kind": "ablation",
+    "dataset": "workplace",
+    "variant": "shared_coeff",
+    "S_train": 24,
+    "round": 6,
+    "canonical_index": 7,
+    "seed_base": 41070000
+  },
+  {
+    "id": "ablation/workplace/shared_coeff/r07",
+    "kind": "ablation",
+    "dataset": "workplace",
+    "variant": "shared_coeff",
+    "S_train": 24,
+    "round": 7,
+    "canonical_index": 7,
+    "seed_base": 41070000
+  },
+  {
+    "id": "ablation/workplace/shared_coeff/r08",
+    "kind": "ablation",
+    "dataset": "workplace",
+    "variant": "shared_coeff",
+    "S_train": 24,
+    "round": 8,
+    "canonical_index": 7,
+    "seed_base": 41070000
+  },
+  {
+    "id": "ablation/workplace/shared_coeff/r09",
+    "kind": "ablation",
+    "dataset": "workplace",
+    "variant": "shared_coeff",
+    "S_train": 24,
+    "round": 9,
+    "canonical_index": 7,
+    "seed_base": 41070000
+  },
+  {
+    "id": "ablation/workplace/no_dist_norm/r00",
+    "kind": "ablation",
+    "dataset": "workplace",
+    "variant": "no_dist_norm",
+    "S_train": 24,
+    "round": 0,
+    "canonical_index": 7,
+    "seed_base": 41070000
+  },
+  {
+    "id": "ablation/workplace/no_dist_norm/r01",
+    "kind": "ablation",
+    "dataset": "workplace",
+    "variant": "no_dist_norm",
+    "S_train": 24,
+    "round": 1,
+    "canonical_index": 7,
+    "seed_base": 41070000
+  },
+  {
+    "id": "ablation/workplace/no_dist_norm/r02",
+    "kind": "ablation",
+    "dataset": "workplace",
+    "variant": "no_dist_norm",
+    "S_train": 24,
+    "round": 2,
+    "canonical_index": 7,
+    "seed_base": 41070000
+  },
+  {
+    "id": "ablation/workplace/no_dist_norm/r03",
+    "kind": "ablation",
+    "dataset": "workplace",
+    "variant": "no_dist_norm",
+    "S_train": 24,
+    "round": 3,
+    "canonical_index": 7,
+    "seed_base": 41070000
+  },
+  {
+    "id": "ablation/workplace/no_dist_norm/r04",
+    "kind": "ablation",
+    "dataset": "workplace",
+    "variant": "no_dist_norm",
+    "S_train": 24,
+    "round": 4,
+    "canonical_index": 7,
+    "seed_base": 41070000
+  },
+  {
+    "id": "ablation/workplace/no_dist_norm/r05",
+    "kind": "ablation",
+    "dataset": "workplace",
+    "variant": "no_dist_norm",
+    "S_train": 24,
+    "round": 5,
+    "canonical_index": 7,
+    "seed_base": 41070000
+  },
+  {
+    "id": "ablation/workplace/no_dist_norm/r06",
+    "kind": "ablation",
+    "dataset": "workplace",
+    "variant": "no_dist_norm",
+    "S_train": 24,
+    "round": 6,
+    "canonical_index": 7,
+    "seed_base": 41070000
+  },
+  {
+    "id": "ablation/workplace/no_dist_norm/r07",
+    "kind": "ablation",
+    "dataset": "workplace",
+    "variant": "no_dist_norm",
+    "S_train": 24,
+    "round": 7,
+    "canonical_index": 7,
+    "seed_base": 41070000
+  },
+  {
+    "id": "ablation/workplace/no_dist_norm/r08",
+    "kind": "ablation",
+    "dataset": "workplace",
+    "variant": "no_dist_norm",
+    "S_train": 24,
+    "round": 8,
+    "canonical_index": 7,
+    "seed_base": 41070000
+  },
+  {
+    "id": "ablation/workplace/no_dist_norm/r09",
+    "kind": "ablation",
+    "dataset": "workplace",
+    "variant": "no_dist_norm",
+    "S_train": 24,
+    "round": 9,
+    "canonical_index": 7,
+    "seed_base": 41070000
+  },
+  {
+    "id": "ablation/workplace/no_mass_correction/r00",
+    "kind": "ablation",
+    "dataset": "workplace",
+    "variant": "no_mass_correction",
+    "S_train": 24,
+    "round": 0,
+    "canonical_index": 7,
+    "seed_base": 41070000
+  },
+  {
+    "id": "ablation/workplace/no_mass_correction/r01",
+    "kind": "ablation",
+    "dataset": "workplace",
+    "variant": "no_mass_correction",
+    "S_train": 24,
+    "round": 1,
+    "canonical_index": 7,
+    "seed_base": 41070000
+  },
+  {
+    "id": "ablation/workplace/no_mass_correction/r02",
+    "kind": "ablation",
+    "dataset": "workplace",
+    "variant": "no_mass_correction",
+    "S_train": 24,
+    "round": 2,
+    "canonical_index": 7,
+    "seed_base": 41070000
+  },
+  {
+    "id": "ablation/workplace/no_mass_correction/r03",
+    "kind": "ablation",
+    "dataset": "workplace",
+    "variant": "no_mass_correction",
+    "S_train": 24,
+    "round": 3,
+    "canonical_index": 7,
+    "seed_base": 41070000
+  },
+  {
+    "id": "ablation/workplace/no_mass_correction/r04",
+    "kind": "ablation",
+    "dataset": "workplace",
+    "variant": "no_mass_correction",
+    "S_train": 24,
+    "round": 4,
+    "canonical_index": 7,
+    "seed_base": 41070000
+  },
+  {
+    "id": "ablation/workplace/no_mass_correction/r05",
+    "kind": "ablation",
+    "dataset": "workplace",
+    "variant": "no_mass_correction",
+    "S_train": 24,
+    "round": 5,
+    "canonical_index": 7,
+    "seed_base": 41070000
+  },
+  {
+    "id": "ablation/workplace/no_mass_correction/r06",
+    "kind": "ablation",
+    "dataset": "workplace",
+    "variant": "no_mass_correction",
+    "S_train": 24,
+    "round": 6,
+    "canonical_index": 7,
+    "seed_base": 41070000
+  },
+  {
+    "id": "ablation/workplace/no_mass_correction/r07",
+    "kind": "ablation",
+    "dataset": "workplace",
+    "variant": "no_mass_correction",
+    "S_train": 24,
+    "round": 7,
+    "canonical_index": 7,
+    "seed_base": 41070000
+  },
+  {
+    "id": "ablation/workplace/no_mass_correction/r08",
+    "kind": "ablation",
+    "dataset": "workplace",
+    "variant": "no_mass_correction",
+    "S_train": 24,
+    "round": 8,
+    "canonical_index": 7,
+    "seed_base": 41070000
+  },
+  {
+    "id": "ablation/workplace/no_mass_correction/r09",
+    "kind": "ablation",
+    "dataset": "workplace",
+    "variant": "no_mass_correction",
+    "S_train": 24,
+    "round": 9,
+    "canonical_index": 7,
+    "seed_base": 41070000
+  },
+  {
+    "id": "sensitivity/aucs/S0/r00",
+    "kind": "sensitivity",
+    "dataset": "aucs",
+    "variant": "Full",
+    "S_train": 0,
+    "round": 0,
+    "canonical_index": 0,
+    "seed_base": 41000000
+  },
+  {
+    "id": "sensitivity/aucs/S0/r01",
+    "kind": "sensitivity",
+    "dataset": "aucs",
+    "variant": "Full",
+    "S_train": 0,
+    "round": 1,
+    "canonical_index": 0,
+    "seed_base": 41000000
+  },
+  {
+    "id": "sensitivity/aucs/S0/r02",
+    "kind": "sensitivity",
+    "dataset": "aucs",
+    "variant": "Full",
+    "S_train": 0,
+    "round": 2,
+    "canonical_index": 0,
+    "seed_base": 41000000
+  },
+  {
+    "id": "sensitivity/aucs/S0/r03",
+    "kind": "sensitivity",
+    "dataset": "aucs",
+    "variant": "Full",
+    "S_train": 0,
+    "round": 3,
+    "canonical_index": 0,
+    "seed_base": 41000000
+  },
+  {
+    "id": "sensitivity/aucs/S0/r04",
+    "kind": "sensitivity",
+    "dataset": "aucs",
+    "variant": "Full",
+    "S_train": 0,
+    "round": 4,
+    "canonical_index": 0,
+    "seed_base": 41000000
+  },
+  {
+    "id": "sensitivity/aucs/S0/r05",
+    "kind": "sensitivity",
+    "dataset": "aucs",
+    "variant": "Full",
+    "S_train": 0,
+    "round": 5,
+    "canonical_index": 0,
+    "seed_base": 41000000
+  },
+  {
+    "id": "sensitivity/aucs/S0/r06",
+    "kind": "sensitivity",
+    "dataset": "aucs",
+    "variant": "Full",
+    "S_train": 0,
+    "round": 6,
+    "canonical_index": 0,
+    "seed_base": 41000000
+  },
+  {
+    "id": "sensitivity/aucs/S0/r07",
+    "kind": "sensitivity",
+    "dataset": "aucs",
+    "variant": "Full",
+    "S_train": 0,
+    "round": 7,
+    "canonical_index": 0,
+    "seed_base": 41000000
+  },
+  {
+    "id": "sensitivity/aucs/S0/r08",
+    "kind": "sensitivity",
+    "dataset": "aucs",
+    "variant": "Full",
+    "S_train": 0,
+    "round": 8,
+    "canonical_index": 0,
+    "seed_base": 41000000
+  },
+  {
+    "id": "sensitivity/aucs/S0/r09",
+    "kind": "sensitivity",
+    "dataset": "aucs",
+    "variant": "Full",
+    "S_train": 0,
+    "round": 9,
+    "canonical_index": 0,
+    "seed_base": 41000000
+  },
+  {
+    "id": "sensitivity/aucs/S6/r00",
+    "kind": "sensitivity",
+    "dataset": "aucs",
+    "variant": "Full",
+    "S_train": 6,
+    "round": 0,
+    "canonical_index": 0,
+    "seed_base": 41000000
+  },
+  {
+    "id": "sensitivity/aucs/S6/r01",
+    "kind": "sensitivity",
+    "dataset": "aucs",
+    "variant": "Full",
+    "S_train": 6,
+    "round": 1,
+    "canonical_index": 0,
+    "seed_base": 41000000
+  },
+  {
+    "id": "sensitivity/aucs/S6/r02",
+    "kind": "sensitivity",
+    "dataset": "aucs",
+    "variant": "Full",
+    "S_train": 6,
+    "round": 2,
+    "canonical_index": 0,
+    "seed_base": 41000000
+  },
+  {
+    "id": "sensitivity/aucs/S6/r03",
+    "kind": "sensitivity",
+    "dataset": "aucs",
+    "variant": "Full",
+    "S_train": 6,
+    "round": 3,
+    "canonical_index": 0,
+    "seed_base": 41000000
+  },
+  {
+    "id": "sensitivity/aucs/S6/r04",
+    "kind": "sensitivity",
+    "dataset": "aucs",
+    "variant": "Full",
+    "S_train": 6,
+    "round": 4,
+    "canonical_index": 0,
+    "seed_base": 41000000
+  },
+  {
+    "id": "sensitivity/aucs/S6/r05",
+    "kind": "sensitivity",
+    "dataset": "aucs",
+    "variant": "Full",
+    "S_train": 6,
+    "round": 5,
+    "canonical_index": 0,
+    "seed_base": 41000000
+  },
+  {
+    "id": "sensitivity/aucs/S6/r06",
+    "kind": "sensitivity",
+    "dataset": "aucs",
+    "variant": "Full",
+    "S_train": 6,
+    "round": 6,
+    "canonical_index": 0,
+    "seed_base": 41000000
+  },
+  {
+    "id": "sensitivity/aucs/S6/r07",
+    "kind": "sensitivity",
+    "dataset": "aucs",
+    "variant": "Full",
+    "S_train": 6,
+    "round": 7,
+    "canonical_index": 0,
+    "seed_base": 41000000
+  },
+  {
+    "id": "sensitivity/aucs/S6/r08",
+    "kind": "sensitivity",
+    "dataset": "aucs",
+    "variant": "Full",
+    "S_train": 6,
+    "round": 8,
+    "canonical_index": 0,
+    "seed_base": 41000000
+  },
+  {
+    "id": "sensitivity/aucs/S6/r09",
+    "kind": "sensitivity",
+    "dataset": "aucs",
+    "variant": "Full",
+    "S_train": 6,
+    "round": 9,
+    "canonical_index": 0,
+    "seed_base": 41000000
+  },
+  {
+    "id": "sensitivity/aucs/S12/r00",
+    "kind": "sensitivity",
+    "dataset": "aucs",
+    "variant": "Full",
+    "S_train": 12,
+    "round": 0,
+    "canonical_index": 0,
+    "seed_base": 41000000
+  },
+  {
+    "id": "sensitivity/aucs/S12/r01",
+    "kind": "sensitivity",
+    "dataset": "aucs",
+    "variant": "Full",
+    "S_train": 12,
+    "round": 1,
+    "canonical_index": 0,
+    "seed_base": 41000000
+  },
+  {
+    "id": "sensitivity/aucs/S12/r02",
+    "kind": "sensitivity",
+    "dataset": "aucs",
+    "variant": "Full",
+    "S_train": 12,
+    "round": 2,
+    "canonical_index": 0,
+    "seed_base": 41000000
+  },
+  {
+    "id": "sensitivity/aucs/S12/r03",
+    "kind": "sensitivity",
+    "dataset": "aucs",
+    "variant": "Full",
+    "S_train": 12,
+    "round": 3,
+    "canonical_index": 0,
+    "seed_base": 41000000
+  },
+  {
+    "id": "sensitivity/aucs/S12/r04",
+    "kind": "sensitivity",
+    "dataset": "aucs",
+    "variant": "Full",
+    "S_train": 12,
+    "round": 4,
+    "canonical_index": 0,
+    "seed_base": 41000000
+  },
+  {
+    "id": "sensitivity/aucs/S12/r05",
+    "kind": "sensitivity",
+    "dataset": "aucs",
+    "variant": "Full",
+    "S_train": 12,
+    "round": 5,
+    "canonical_index": 0,
+    "seed_base": 41000000
+  },
+  {
+    "id": "sensitivity/aucs/S12/r06",
+    "kind": "sensitivity",
+    "dataset": "aucs",
+    "variant": "Full",
+    "S_train": 12,
+    "round": 6,
+    "canonical_index": 0,
+    "seed_base": 41000000
+  },
+  {
+    "id": "sensitivity/aucs/S12/r07",
+    "kind": "sensitivity",
+    "dataset": "aucs",
+    "variant": "Full",
+    "S_train": 12,
+    "round": 7,
+    "canonical_index": 0,
+    "seed_base": 41000000
+  },
+  {
+    "id": "sensitivity/aucs/S12/r08",
+    "kind": "sensitivity",
+    "dataset": "aucs",
+    "variant": "Full",
+    "S_train": 12,
+    "round": 8,
+    "canonical_index": 0,
+    "seed_base": 41000000
+  },
+  {
+    "id": "sensitivity/aucs/S12/r09",
+    "kind": "sensitivity",
+    "dataset": "aucs",
+    "variant": "Full",
+    "S_train": 12,
+    "round": 9,
+    "canonical_index": 0,
+    "seed_base": 41000000
+  },
+  {
+    "id": "sensitivity/aucs/S48/r00",
+    "kind": "sensitivity",
+    "dataset": "aucs",
+    "variant": "Full",
+    "S_train": 48,
+    "round": 0,
+    "canonical_index": 0,
+    "seed_base": 41000000
+  },
+  {
+    "id": "sensitivity/aucs/S48/r01",
+    "kind": "sensitivity",
+    "dataset": "aucs",
+    "variant": "Full",
+    "S_train": 48,
+    "round": 1,
+    "canonical_index": 0,
+    "seed_base": 41000000
+  },
+  {
+    "id": "sensitivity/aucs/S48/r02",
+    "kind": "sensitivity",
+    "dataset": "aucs",
+    "variant": "Full",
+    "S_train": 48,
+    "round": 2,
+    "canonical_index": 0,
+    "seed_base": 41000000
+  },
+  {
+    "id": "sensitivity/aucs/S48/r03",
+    "kind": "sensitivity",
+    "dataset": "aucs",
+    "variant": "Full",
+    "S_train": 48,
+    "round": 3,
+    "canonical_index": 0,
+    "seed_base": 41000000
+  },
+  {
+    "id": "sensitivity/aucs/S48/r04",
+    "kind": "sensitivity",
+    "dataset": "aucs",
+    "variant": "Full",
+    "S_train": 48,
+    "round": 4,
+    "canonical_index": 0,
+    "seed_base": 41000000
+  },
+  {
+    "id": "sensitivity/aucs/S48/r05",
+    "kind": "sensitivity",
+    "dataset": "aucs",
+    "variant": "Full",
+    "S_train": 48,
+    "round": 5,
+    "canonical_index": 0,
+    "seed_base": 41000000
+  },
+  {
+    "id": "sensitivity/aucs/S48/r06",
+    "kind": "sensitivity",
+    "dataset": "aucs",
+    "variant": "Full",
+    "S_train": 48,
+    "round": 6,
+    "canonical_index": 0,
+    "seed_base": 41000000
+  },
+  {
+    "id": "sensitivity/aucs/S48/r07",
+    "kind": "sensitivity",
+    "dataset": "aucs",
+    "variant": "Full",
+    "S_train": 48,
+    "round": 7,
+    "canonical_index": 0,
+    "seed_base": 41000000
+  },
+  {
+    "id": "sensitivity/aucs/S48/r08",
+    "kind": "sensitivity",
+    "dataset": "aucs",
+    "variant": "Full",
+    "S_train": 48,
+    "round": 8,
+    "canonical_index": 0,
+    "seed_base": 41000000
+  },
+  {
+    "id": "sensitivity/aucs/S48/r09",
+    "kind": "sensitivity",
+    "dataset": "aucs",
+    "variant": "Full",
+    "S_train": 48,
+    "round": 9,
+    "canonical_index": 0,
+    "seed_base": 41000000
+  },
+  {
+    "id": "sensitivity/dkpol/S0/r00",
+    "kind": "sensitivity",
+    "dataset": "dkpol",
+    "variant": "Full",
+    "S_train": 0,
+    "round": 0,
+    "canonical_index": 1,
+    "seed_base": 41010000
+  },
+  {
+    "id": "sensitivity/dkpol/S0/r01",
+    "kind": "sensitivity",
+    "dataset": "dkpol",
+    "variant": "Full",
+    "S_train": 0,
+    "round": 1,
+    "canonical_index": 1,
+    "seed_base": 41010000
+  },
+  {
+    "id": "sensitivity/dkpol/S0/r02",
+    "kind": "sensitivity",
+    "dataset": "dkpol",
+    "variant": "Full",
+    "S_train": 0,
+    "round": 2,
+    "canonical_index": 1,
+    "seed_base": 41010000
+  },
+  {
+    "id": "sensitivity/dkpol/S0/r03",
+    "kind": "sensitivity",
+    "dataset": "dkpol",
+    "variant": "Full",
+    "S_train": 0,
+    "round": 3,
+    "canonical_index": 1,
+    "seed_base": 41010000
+  },
+  {
+    "id": "sensitivity/dkpol/S0/r04",
+    "kind": "sensitivity",
+    "dataset": "dkpol",
+    "variant": "Full",
+    "S_train": 0,
+    "round": 4,
+    "canonical_index": 1,
+    "seed_base": 41010000
+  },
+  {
+    "id": "sensitivity/dkpol/S0/r05",
+    "kind": "sensitivity",
+    "dataset": "dkpol",
+    "variant": "Full",
+    "S_train": 0,
+    "round": 5,
+    "canonical_index": 1,
+    "seed_base": 41010000
+  },
+  {
+    "id": "sensitivity/dkpol/S0/r06",
+    "kind": "sensitivity",
+    "dataset": "dkpol",
+    "variant": "Full",
+    "S_train": 0,
+    "round": 6,
+    "canonical_index": 1,
+    "seed_base": 41010000
+  },
+  {
+    "id": "sensitivity/dkpol/S0/r07",
+    "kind": "sensitivity",
+    "dataset": "dkpol",
+    "variant": "Full",
+    "S_train": 0,
+    "round": 7,
+    "canonical_index": 1,
+    "seed_base": 41010000
+  },
+  {
+    "id": "sensitivity/dkpol/S0/r08",
+    "kind": "sensitivity",
+    "dataset": "dkpol",
+    "variant": "Full",
+    "S_train": 0,
+    "round": 8,
+    "canonical_index": 1,
+    "seed_base": 41010000
+  },
+  {
+    "id": "sensitivity/dkpol/S0/r09",
+    "kind": "sensitivity",
+    "dataset": "dkpol",
+    "variant": "Full",
+    "S_train": 0,
+    "round": 9,
+    "canonical_index": 1,
+    "seed_base": 41010000
+  },
+  {
+    "id": "sensitivity/dkpol/S6/r00",
+    "kind": "sensitivity",
+    "dataset": "dkpol",
+    "variant": "Full",
+    "S_train": 6,
+    "round": 0,
+    "canonical_index": 1,
+    "seed_base": 41010000
+  },
+  {
+    "id": "sensitivity/dkpol/S6/r01",
+    "kind": "sensitivity",
+    "dataset": "dkpol",
+    "variant": "Full",
+    "S_train": 6,
+    "round": 1,
+    "canonical_index": 1,
+    "seed_base": 41010000
+  },
+  {
+    "id": "sensitivity/dkpol/S6/r02",
+    "kind": "sensitivity",
+    "dataset": "dkpol",
+    "variant": "Full",
+    "S_train": 6,
+    "round": 2,
+    "canonical_index": 1,
+    "seed_base": 41010000
+  },
+  {
+    "id": "sensitivity/dkpol/S6/r03",
+    "kind": "sensitivity",
+    "dataset": "dkpol",
+    "variant": "Full",
+    "S_train": 6,
+    "round": 3,
+    "canonical_index": 1,
+    "seed_base": 41010000
+  },
+  {
+    "id": "sensitivity/dkpol/S6/r04",
+    "kind": "sensitivity",
+    "dataset": "dkpol",
+    "variant": "Full",
+    "S_train": 6,
+    "round": 4,
+    "canonical_index": 1,
+    "seed_base": 41010000
+  },
+  {
+    "id": "sensitivity/dkpol/S6/r05",
+    "kind": "sensitivity",
+    "dataset": "dkpol",
+    "variant": "Full",
+    "S_train": 6,
+    "round": 5,
+    "canonical_index": 1,
+    "seed_base": 41010000
+  },
+  {
+    "id": "sensitivity/dkpol/S6/r06",
+    "kind": "sensitivity",
+    "dataset": "dkpol",
+    "variant": "Full",
+    "S_train": 6,
+    "round": 6,
+    "canonical_index": 1,
+    "seed_base": 41010000
+  },
+  {
+    "id": "sensitivity/dkpol/S6/r07",
+    "kind": "sensitivity",
+    "dataset": "dkpol",
+    "variant": "Full",
+    "S_train": 6,
+    "round": 7,
+    "canonical_index": 1,
+    "seed_base": 41010000
+  },
+  {
+    "id": "sensitivity/dkpol/S6/r08",
+    "kind": "sensitivity",
+    "dataset": "dkpol",
+    "variant": "Full",
+    "S_train": 6,
+    "round": 8,
+    "canonical_index": 1,
+    "seed_base": 41010000
+  },
+  {
+    "id": "sensitivity/dkpol/S6/r09",
+    "kind": "sensitivity",
+    "dataset": "dkpol",
+    "variant": "Full",
+    "S_train": 6,
+    "round": 9,
+    "canonical_index": 1,
+    "seed_base": 41010000
+  },
+  {
+    "id": "sensitivity/dkpol/S12/r00",
+    "kind": "sensitivity",
+    "dataset": "dkpol",
+    "variant": "Full",
+    "S_train": 12,
+    "round": 0,
+    "canonical_index": 1,
+    "seed_base": 41010000
+  },
+  {
+    "id": "sensitivity/dkpol/S12/r01",
+    "kind": "sensitivity",
+    "dataset": "dkpol",
+    "variant": "Full",
+    "S_train": 12,
+    "round": 1,
+    "canonical_index": 1,
+    "seed_base": 41010000
+  },
+  {
+    "id": "sensitivity/dkpol/S12/r02",
+    "kind": "sensitivity",
+    "dataset": "dkpol",
+    "variant": "Full",
+    "S_train": 12,
+    "round": 2,
+    "canonical_index": 1,
+    "seed_base": 41010000
+  },
+  {
+    "id": "sensitivity/dkpol/S12/r03",
+    "kind": "sensitivity",
+    "dataset": "dkpol",
+    "variant": "Full",
+    "S_train": 12,
+    "round": 3,
+    "canonical_index": 1,
+    "seed_base": 41010000
+  },
+  {
+    "id": "sensitivity/dkpol/S12/r04",
+    "kind": "sensitivity",
+    "dataset": "dkpol",
+    "variant": "Full",
+    "S_train": 12,
+    "round": 4,
+    "canonical_index": 1,
+    "seed_base": 41010000
+  },
+  {
+    "id": "sensitivity/dkpol/S12/r05",
+    "kind": "sensitivity",
+    "dataset": "dkpol",
+    "variant": "Full",
+    "S_train": 12,
+    "round": 5,
+    "canonical_index": 1,
+    "seed_base": 41010000
+  },
+  {
+    "id": "sensitivity/dkpol/S12/r06",
+    "kind": "sensitivity",
+    "dataset": "dkpol",
+    "variant": "Full",
+    "S_train": 12,
+    "round": 6,
+    "canonical_index": 1,
+    "seed_base": 41010000
+  },
+  {
+    "id": "sensitivity/dkpol/S12/r07",
+    "kind": "sensitivity",
+    "dataset": "dkpol",
+    "variant": "Full",
+    "S_train": 12,
+    "round": 7,
+    "canonical_index": 1,
+    "seed_base": 41010000
+  },
+  {
+    "id": "sensitivity/dkpol/S12/r08",
+    "kind": "sensitivity",
+    "dataset": "dkpol",
+    "variant": "Full",
+    "S_train": 12,
+    "round": 8,
+    "canonical_index": 1,
+    "seed_base": 41010000
+  },
+  {
+    "id": "sensitivity/dkpol/S12/r09",
+    "kind": "sensitivity",
+    "dataset": "dkpol",
+    "variant": "Full",
+    "S_train": 12,
+    "round": 9,
+    "canonical_index": 1,
+    "seed_base": 41010000
+  },
+  {
+    "id": "sensitivity/dkpol/S48/r00",
+    "kind": "sensitivity",
+    "dataset": "dkpol",
+    "variant": "Full",
+    "S_train": 48,
+    "round": 0,
+    "canonical_index": 1,
+    "seed_base": 41010000
+  },
+  {
+    "id": "sensitivity/dkpol/S48/r01",
+    "kind": "sensitivity",
+    "dataset": "dkpol",
+    "variant": "Full",
+    "S_train": 48,
+    "round": 1,
+    "canonical_index": 1,
+    "seed_base": 41010000
+  },
+  {
+    "id": "sensitivity/dkpol/S48/r02",
+    "kind": "sensitivity",
+    "dataset": "dkpol",
+    "variant": "Full",
+    "S_train": 48,
+    "round": 2,
+    "canonical_index": 1,
+    "seed_base": 41010000
+  },
+  {
+    "id": "sensitivity/dkpol/S48/r03",
+    "kind": "sensitivity",
+    "dataset": "dkpol",
+    "variant": "Full",
+    "S_train": 48,
+    "round": 3,
+    "canonical_index": 1,
+    "seed_base": 41010000
+  },
+  {
+    "id": "sensitivity/dkpol/S48/r04",
+    "kind": "sensitivity",
+    "dataset": "dkpol",
+    "variant": "Full",
+    "S_train": 48,
+    "round": 4,
+    "canonical_index": 1,
+    "seed_base": 41010000
+  },
+  {
+    "id": "sensitivity/dkpol/S48/r05",
+    "kind": "sensitivity",
+    "dataset": "dkpol",
+    "variant": "Full",
+    "S_train": 48,
+    "round": 5,
+    "canonical_index": 1,
+    "seed_base": 41010000
+  },
+  {
+    "id": "sensitivity/dkpol/S48/r06",
+    "kind": "sensitivity",
+    "dataset": "dkpol",
+    "variant": "Full",
+    "S_train": 48,
+    "round": 6,
+    "canonical_index": 1,
+    "seed_base": 41010000
+  },
+  {
+    "id": "sensitivity/dkpol/S48/r07",
+    "kind": "sensitivity",
+    "dataset": "dkpol",
+    "variant": "Full",
+    "S_train": 48,
+    "round": 7,
+    "canonical_index": 1,
+    "seed_base": 41010000
+  },
+  {
+    "id": "sensitivity/dkpol/S48/r08",
+    "kind": "sensitivity",
+    "dataset": "dkpol",
+    "variant": "Full",
+    "S_train": 48,
+    "round": 8,
+    "canonical_index": 1,
+    "seed_base": 41010000
+  },
+  {
+    "id": "sensitivity/dkpol/S48/r09",
+    "kind": "sensitivity",
+    "dataset": "dkpol",
+    "variant": "Full",
+    "S_train": 48,
+    "round": 9,
+    "canonical_index": 1,
+    "seed_base": 41010000
+  }
+]

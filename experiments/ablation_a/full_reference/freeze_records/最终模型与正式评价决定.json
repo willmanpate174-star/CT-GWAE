@@ -1,0 +1,18 @@
+{
+  "status": "approved_final600_knownK_formal41m900",
+  "user_authorized": true,
+  "protocol_sha256": "3ee88b946d49a9dae947c49eb53396f2c24dae696b7e8772c63c27bda453613c",
+  "authorization_basis": "User explicitly confirms 600 proposals and requests prompt freeze then formal tests; original instructions retain honest performance requirements",
+  "implementation_only_freeze": true,
+  "performance_qualified": false,
+  "must_fix_open": [],
+  "unresolved_scientific_limitations": [
+    "Workplace development GW-versus-ARI ordering conflict persists; no implementation fault found",
+    "Zero-degree nodes structurally unidentifiable",
+    "Finite unroll and finite proposal budget do not prove stationary or globally optimal solutions",
+    "KnownK MAP optimal only for given W; fullK preserves original labels, not guaranteed ARI gain",
+    "600 budget not proved optimal; formal outcomes not known"
+  ],
+  "goal_complete": false,
+  "created_at": "2026-10-08T11:13:08.3653120+08:00"
+}

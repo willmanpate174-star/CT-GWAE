@@ -1,0 +1,11 @@
+{
+  "N": 70000,
+  "L": 2,
+  "K": 10,
+  "dataset": "mnist70000",
+  "construction": "Fixed label-free15NN symmetric binary image intensity and gradient views",
+  "source_layer_sha256": {
+    "layer0.npz": "44c828b527c6649a097143934f2cafc12e6902860ea19555aa3ccfd28ae220f5",
+    "layer1.npz": "4e1592aa94b03d52a7bb168d4cbd89503036b52f81f64725826b420720c4f3fa"
+  }
+}

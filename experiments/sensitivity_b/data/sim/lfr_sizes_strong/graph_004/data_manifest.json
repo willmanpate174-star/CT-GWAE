@@ -1,0 +1,20 @@
+{
+  "status": "adapted_exactly",
+  "source_files_sha256": {
+    "metadata.json": "5d77070eded0afbefe0ff809f65591fbc473bbcc02fa2e259065ad2233aacf52",
+    "conflict_labels.npy": "0e870ec9b13422a711bd5ff9f6c332358032ebf961f9795faae8e741705201af",
+    "labels.npy": "962dbca122c7ef640ff84af0d03fe473edb99e25d43576cacc56054a3b9b4ea8",
+    "layer_00.npz": "d5afde99e5bd76cd1b151ba2157ea5a44f8b5033cdee4de5604975eaea7cc15e",
+    "layer_01.npz": "98a8b922438acb2db106cbb60ef5ea8760bc0c98dc2538555a936144ddc11c94",
+    "layer_02.npz": "3ac504ca2d64e846cc6e1519c40a84f6674230c7c3f48ece0b4ee3c58da41f33",
+    "layer_03.npz": "00be0918391099dacf5b871941f2a50cb39ac64636f3091579b46e06a8ff5a9a"
+  },
+  "converted_files_sha256": {
+    "graphs.npz": "574aa5ad07975572a5a92b0dc0efb4c3750eb643e452e2778d0946a07fe31e04",
+    "evaluation.npz": "c938e5d8886324ff0f6b7659e8b8121b3814acf274afbb6d79ebd91801180cd2",
+    "metadata.json": "c65a3dc907f8dba7bd4491847b47eaf43409b8cad8c828035b725a6be53bc498"
+  },
+  "adjacency_verified_equal": true,
+  "truth_verified_equal": true,
+  "labels_for_training": false
+}

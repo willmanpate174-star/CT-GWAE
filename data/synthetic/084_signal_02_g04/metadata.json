@@ -1,0 +1,8 @@
+{
+  "N": 240,
+  "L": 4,
+  "K": 4,
+  "condition": "signal_02",
+  "instance": 4,
+  "family": "SBM"
+}

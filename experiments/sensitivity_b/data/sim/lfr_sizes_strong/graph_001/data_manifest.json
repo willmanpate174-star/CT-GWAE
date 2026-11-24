@@ -1,0 +1,20 @@
+{
+  "status": "adapted_exactly",
+  "source_files_sha256": {
+    "metadata.json": "d1a9c53d9ca46ec0724b8e9a33d1e51a8080e34e11608907e389ac4f4a31adb7",
+    "conflict_labels.npy": "3eebb7574cb110ae49b8e94afd0cfd35cb16a4376fc4ebbfe05202f4aea92621",
+    "labels.npy": "3dc5c47b1b4eed0f9eea842bd036785184e3a8634acfe8df161a2e77f3b5a985",
+    "layer_00.npz": "7e8a9491162db657648817805d0a201dd5f83d6ab88843a4dfdcc0ee748daf72",
+    "layer_01.npz": "c868ba51f9fa058edb55d2909a038bf21305d55f1ebc8b4b620d0e08eb6de003",
+    "layer_02.npz": "36d667b602e988e43e9b9b98634d3a09427d9be79514b0f36aa3dfb9aba478d4",
+    "layer_03.npz": "1e840aa5093992ffbe1bd796f41fd88fc27e72dd6306af3be92ae80750827d65"
+  },
+  "converted_files_sha256": {
+    "graphs.npz": "5934ab0310e7735ae4f014d1b1c529e35e3c62887fc9107762d259b543db70a8",
+    "evaluation.npz": "0a51eb3a5c41bf17533000a84a72c239c8fab2791c0d27ae3ee49fe7825b7bbf",
+    "metadata.json": "77c48bfae3869aeacba115f0c9036273ef7aba116cc33bc7247ccd5c75b810d3"
+  },
+  "adjacency_verified_equal": true,
+  "truth_verified_equal": true,
+  "labels_for_training": false
+}

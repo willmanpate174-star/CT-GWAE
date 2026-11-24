@@ -1,0 +1,184 @@
+{
+  "name": "V8逐层单GW逆质量模板_600_已知K",
+  "proposals": 600,
+  "train_steps": 24,
+  "inference_steps": 100,
+  "variant": "original-control",
+  "mode": "restored",
+  "decoder": "uniform_exact_knownK_surjective_MAP_after_S100",
+  "decoder_wrapper_sha256": "2df8e0a1c8120995a4c8be711517ed728487e7df2032fb9dddc8b9001a1314d1",
+  "formal_seed_formula": "41000000+10000*canonical_dataset_index+100*r+j",
+  "model_sha256": "e559582eb744d1aac3c2351cbefad2edfcbd4e135645dd648f8c5318d789149a",
+  "scorer_sha256": "836197a666e82dc1d95dd7b45e6a161213c5d5787117d49c058cb863d96eaabc",
+  "objective": "Single per-layer geometric-degree GW; common W; independent inverse-q B_l; mean normalized structural GW plus original .02 node occupancy",
+  "formal_scope_sha256": "47235e3e5b0877a5712be44dd23502bdbc2dba3485d4a590dc561eabe8b0ed24",
+  "R": 10,
+  "J": 10,
+  "networks": 900,
+  "training_proposals": 540000,
+  "execution_order": [
+    "ckm",
+    "aucs",
+    "dkpol",
+    "lazega",
+    "noordin",
+    "highschool2013",
+    "primaryschool",
+    "workplace",
+    "uci"
+  ],
+  "selection": "Own J10 exact final hard complete objective ordered firstargmin, never truth",
+  "statistics": "Ten ownGW winners mean and sample SD denominator9",
+  "performance_qualified": false,
+  "development_singleJ10_results": [
+    {
+      "dataset": "aucs",
+      "winner_j": 0,
+      "candidate_id": "aucs/original-control/restored/r00/j00",
+      "objective": 0.7742652695888148,
+      "labels_path": "C:\\Users\\Dingjunhao\\Documents\\李慧嘉论文\\准备_20261008_已知K单一MAP后解码90无真值验证静态\\attempts\\1791428310690693200\\candidates\\aucs\\original-control\\restored\\r00\\j00\\labels.npy",
+      "labels_sha256": "77de28b8bac51a3cfe7d23a8dfa4042f296a806c1696804966737d434b525417",
+      "ARI": 0.9260575146160557,
+      "combination_ARI": 0.9260575146160557,
+      "strongest_baseline_mean": 0.8943089928872188,
+      "strongest_baseline_methods": [
+        "SCML"
+      ],
+      "strict_baseline_win": true
+    },
+    {
+      "dataset": "dkpol",
+      "winner_j": 7,
+      "candidate_id": "dkpol/original-control/restored/r00/j07",
+      "objective": 0.91053910915829,
+      "labels_path": "C:\\Users\\Dingjunhao\\Documents\\李慧嘉论文\\准备_20261008_已知K单一MAP后解码90无真值验证静态\\attempts\\1791428310690693200\\candidates\\dkpol\\original-control\\restored\\r00\\j07\\labels.npy",
+      "labels_sha256": "4333722cc605bb5cf075255ebfce444d2d14277b473419d19c5810ccafd8de2a",
+      "ARI": 0.8144085539548264,
+      "combination_ARI": 0.8144085539548264,
+      "strongest_baseline_mean": 0.6829166882493142,
+      "strongest_baseline_methods": [
+        "SCML"
+      ],
+      "strict_baseline_win": true
+    },
+    {
+      "dataset": "lazega",
+      "winner_j": 0,
+      "candidate_id": "lazega/original-control/restored/r00/j00",
+      "objective": 0.8575146602807276,
+      "labels_path": "C:\\Users\\Dingjunhao\\Documents\\李慧嘉论文\\准备_20261008_已知K单一MAP后解码90无真值验证静态\\attempts\\1791428310690693200\\candidates\\lazega\\original-control\\restored\\r00\\j00\\labels.npy",
+      "labels_sha256": "041e0b03cfc5f52306892fb94007b206ef3a4df6bcaa6fe378c0382a93388ca9",
+      "ARI": 0.4676793111310452,
+      "combination_ARI": 0.4676793111310452,
+      "strongest_baseline_mean": 0.47655749515792495,
+      "strongest_baseline_methods": [
+        "SCML",
+        "WPTTD"
+      ],
+      "strict_baseline_win": false
+    },
+    {
+      "dataset": "noordin",
+      "winner_j": 2,
+      "candidate_id": "noordin/original-control/restored/r00/j02",
+      "objective": 0.8031937222239103,
+      "labels_path": "C:\\Users\\Dingjunhao\\Documents\\李慧嘉论文\\准备_20261008_已知K单一MAP后解码90无真值验证静态\\attempts\\1791428310690693200\\candidates\\noordin\\original-control\\restored\\r00\\j02\\labels.npy",
+      "labels_sha256": "45149c156c666f20c92b31b250f3d5cad44be211b0fd3836bb3984a9acbcbdd2",
+      "ARI": 0.12437398581221526,
+      "combination_ARI": 0.12437398581221526,
+      "strongest_baseline_mean": 0.19837466403074944,
+      "strongest_baseline_methods": [
+        "SCML"
+      ],
+      "strict_baseline_win": false
+    },
+    {
+      "dataset": "ckm",
+      "winner_j": 0,
+      "candidate_id": "ckm/original-control/restored/r00/j00",
+      "objective": 0.9357245881011642,
+      "labels_path": "C:\\Users\\Dingjunhao\\Documents\\李慧嘉论文\\准备_20261008_已知K单一MAP后解码90无真值验证静态\\attempts\\1791428310690693200\\candidates\\ckm\\original-control\\restored\\r00\\j00\\labels.npy",
+      "labels_sha256": "06042ccd3f5611f3460e0451d9dc4f89e24a635ceba7b4ab33ddd4fe0780ced6",
+      "ARI": 0.968199397715656,
+      "combination_ARI": 0.968199397715656,
+      "strongest_baseline_mean": 0.9677434486874518,
+      "strongest_baseline_methods": [
+        "SCML"
+      ],
+      "strict_baseline_win": true
+    },
+    {
+      "dataset": "highschool2013",
+      "winner_j": 0,
+      "candidate_id": "highschool2013/original-control/restored/r00/j00",
+      "objective": 0.7326474237137985,
+      "labels_path": "C:\\Users\\Dingjunhao\\Documents\\李慧嘉论文\\准备_20261008_已知K单一MAP后解码90无真值验证静态\\attempts\\1791428310690693200\\candidates\\highschool2013\\original-control\\restored\\r00\\j00\\labels.npy",
+      "labels_sha256": "0fe70a7befda826b26b918d98ca606657f0cff956576edc9551fe1b36cd387f6",
+      "ARI": 0.9935115848924501,
+      "combination_ARI": 0.9935115848924501,
+      "strongest_baseline_mean": 0.9935115848924501,
+      "strongest_baseline_methods": [
+        "SCML"
+      ],
+      "strict_baseline_win": false
+    },
+    {
+      "dataset": "primaryschool",
+      "winner_j": 7,
+      "candidate_id": "primaryschool/original-control/restored/r00/j07",
+      "objective": 0.6513349835986418,
+      "labels_path": "C:\\Users\\Dingjunhao\\Documents\\李慧嘉论文\\准备_20261008_已知K单一MAP后解码90无真值验证静态\\attempts\\1791428310690693200\\candidates\\primaryschool\\original-control\\restored\\r00\\j07\\labels.npy",
+      "labels_sha256": "7d72e38ccea16b382e954b9708e482b6dd8739d601cfe58234426c8d02b723c2",
+      "ARI": 0.9905623884905234,
+      "combination_ARI": 0.9905623884905234,
+      "strongest_baseline_mean": 0.9905623884905234,
+      "strongest_baseline_methods": [
+        "SCML",
+        "jNMF-GCL"
+      ],
+      "strict_baseline_win": false
+    },
+    {
+      "dataset": "workplace",
+      "winner_j": 7,
+      "candidate_id": "workplace/original-control/restored/r00/j07",
+      "objective": 0.8499719202225362,
+      "labels_path": "C:\\Users\\Dingjunhao\\Documents\\李慧嘉论文\\准备_20261008_已知K单一MAP后解码90无真值验证静态\\attempts\\1791428310690693200\\candidates\\workplace\\original-control\\restored\\r00\\j07\\labels.npy",
+      "labels_sha256": "dc741dcdd05aaae92df75908182ef6003948644635f91005211cd96f9cee1b8b",
+      "ARI": 0.753298808218536,
+      "combination_ARI": 0.753298808218536,
+      "strongest_baseline_mean": 0.7693769565912822,
+      "strongest_baseline_methods": [
+        "SCML"
+      ],
+      "strict_baseline_win": false
+    },
+    {
+      "dataset": "uci",
+      "winner_j": 0,
+      "candidate_id": "uci/original-control/restored/r00/j00",
+      "objective": 0.9562761002695453,
+      "labels_path": "C:\\Users\\Dingjunhao\\Documents\\李慧嘉论文\\准备_20261008_已知K单一MAP后解码90无真值验证静态\\attempts\\1791428310690693200\\candidates\\uci\\original-control\\restored\\r00\\j00\\labels.npy",
+      "labels_sha256": "2d6ead19723211e9eb6e0e2ad661c3a05a249a96d896e963e880adc65f277a36",
+      "ARI": 0.8317206522707158,
+      "combination_ARI": 0.8317206522707158,
+      "strongest_baseline_mean": 0.8265176287993027,
+      "strongest_baseline_methods": [
+        "RDSoS"
+      ],
+      "strict_baseline_win": true
+    }
+  ],
+  "limitations": [
+    "Workplace development GW-versus-ARI ordering conflict persists; no implementation fault found",
+    "Zero-degree nodes structurally unidentifiable",
+    "Finite unroll and finite proposal budget do not prove stationary or globally optimal solutions",
+    "KnownK MAP optimal only for given W; fullK preserves original labels, not guaranteed ARI gain",
+    "600 budget not proved optimal; formal outcomes not known"
+  ],
+  "truth_history_path": "C:/Users/Dingjunhao/Documents/李慧嘉论文/核验_20261008_最终600开发真值评价历史登记/truth_history_actual.json",
+  "truth_history_sha256": "f982978750bf03b7dd7e080be2105dd6fad68e68823b4023c258d4f42cdbf561",
+  "not_first_globaltruth": true,
+  "all_old_results_and_costs_preserved": true,
+  "created_at": "2026-10-08T11:13:08.3392103+08:00"
+}

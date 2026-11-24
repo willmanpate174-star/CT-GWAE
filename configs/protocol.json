@@ -1,0 +1,11 @@
+{
+  "model": "CT-GWAE",
+  "proposals": 600,
+  "training_steps": 24,
+  "inference_steps": 100,
+  "threads": 1,
+  "device": "cpu",
+  "dtype": "float64",
+  "selection": "First minimum decoded hard GW objective within each repeat; all outer repeats retained.",
+  "evaluation": "ARI, arithmetic NMI, Hungarian-matched ACC; original node-layer tiling for all suites."
+}

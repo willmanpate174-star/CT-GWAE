@@ -1,0 +1,138 @@
+{
+  "status": "registered_local_simulation_before_training",
+  "simulation_not_realgraph_formal900": true,
+  "input_sha256": {
+    "metadata.json": "8405a8e8edd541ac0a82cc8858a84d17d93b3ab008ccbc46ae0fbbdde23eb584",
+    "graphs.npz": "192607f03207715810a6ab171dc5c3394426c3dcaf991f5cd2f5decd2babdc3f"
+  },
+  "source_lineage": {
+    "encoder_leaf/experiment.py": {
+      "original_path": "C:\\Users\\Dingjunhao\\Desktop\\李慧嘉课题组\\V8神经网络\\实验\\复核_20261005_V8统一流程独立种子\\代码\\experiment.py",
+      "sha256": "8eab68e0ae6e0ff17982c8338db404cca5f864dcc754e7120131abead8519adc",
+      "byte_identical": true
+    },
+    "encoder_leaf/model_core.py": {
+      "original_path": "C:\\Users\\Dingjunhao\\Desktop\\李慧嘉课题组\\V8神经网络\\实验\\复核_20261005_V8统一流程独立种子\\代码\\model_core.py",
+      "sha256": "14e0bc8a24b261a690b9cc5b0afdcbbe1403dd0d195d1a1dcd8d9bad4564014d",
+      "byte_identical": true
+    },
+    "encoder_leaf/features.py": {
+      "original_path": "C:\\Users\\Dingjunhao\\Desktop\\李慧嘉课题组\\V8神经网络\\实验\\复核_20261005_V8统一流程独立种子\\代码\\features.py",
+      "sha256": "d1d9545eccd765e131b3f0e9001c59c3dd392485ea86bfbd7c2c455fd755c4eb",
+      "byte_identical": true
+    },
+    "encoder_leaf/data_io.py": {
+      "original_path": "C:\\Users\\Dingjunhao\\Desktop\\李慧嘉课题组\\V8神经网络\\实验\\复核_20261005_V8统一流程独立种子\\代码\\data_io.py",
+      "sha256": "10c5edc14a403fc0c68633a8afbc520c2c54b6341d6628927ba4147a6b03f76e",
+      "byte_identical": true
+    },
+    "encoder_leaf/community_template.py": {
+      "original_path": "C:\\Users\\Dingjunhao\\Desktop\\李慧嘉课题组\\V8神经网络\\实验\\复核_20261005_V8统一流程独立种子\\代码\\community_template.py",
+      "sha256": "a05fcb391bdc11561a370503db09cd402ea62028a43c0c9e798921946855bbe8",
+      "byte_identical": true
+    },
+    "encoder_leaf/volume_objective.py": {
+      "original_path": "C:\\Users\\Dingjunhao\\Desktop\\李慧嘉课题组\\V8神经网络\\实验\\复核_20261005_V8统一流程独立种子\\代码\\volume_objective.py",
+      "sha256": "0a96fdbe56b2fb810291a166dfc6e59eb7ea969c550828fd4f4c952a58072f89",
+      "byte_identical": true
+    },
+    "encoder_leaf/mass_scaled_objective.py": {
+      "original_path": "C:\\Users\\Dingjunhao\\Desktop\\李慧嘉课题组\\V8神经网络\\实验\\复核_20261005_V8统一流程独立种子\\代码\\mass_scaled_objective.py",
+      "sha256": "3e3d4e9d829f11847f288666b714c10443a1a55d73f595534097033562f48e44",
+      "byte_identical": true
+    },
+    "encoder_leaf/degree_corrected_objective.py": {
+      "original_path": "C:\\Users\\Dingjunhao\\Desktop\\李慧嘉课题组\\V8神经网络\\实验\\复核_20261005_V8统一流程独立种子\\代码\\degree_corrected_objective.py",
+      "sha256": "ee9dac7a30688e5958de79aad38b9663ce7d97aa095186c5b261ae4f46b5b257",
+      "byte_identical": true
+    },
+    "encoder_leaf/dual_community_objective.py": {
+      "original_path": "C:\\Users\\Dingjunhao\\Desktop\\李慧嘉课题组\\V8神经网络\\实验\\复核_20261005_V8统一流程独立种子\\代码\\dual_community_objective.py",
+      "sha256": "1ef4f27aabc0c49142d0decbd02c8234de4c5c538ee07bd0e6763a1992806764",
+      "byte_identical": true
+    },
+    "encoder_leaf/profiled_template.py": {
+      "original_path": "C:\\Users\\Dingjunhao\\Desktop\\李慧嘉课题组\\V8神经网络\\实验\\复核_20261005_V8统一流程独立种子\\代码\\profiled_template.py",
+      "sha256": "6e8bb28bbf93825df133af9efb246d44ffe52533db91eb0131c68b177c0a03d6",
+      "byte_identical": true
+    },
+    "encoder_leaf/coverage_fusion.py": {
+      "original_path": "C:\\Users\\Dingjunhao\\Desktop\\李慧嘉课题组\\V8神经网络\\实验\\复核_20261005_V8统一流程独立种子\\代码\\coverage_fusion.py",
+      "sha256": "58d68808216bba1fb52399307d63f87016f6b06db815d48af198572dadd2e579",
+      "byte_identical": true
+    },
+    "encoder_leaf/dual_objective.py": {
+      "original_path": "C:\\Users\\Dingjunhao\\Desktop\\李慧嘉课题组\\V8神经网络\\实验\\复核_20261005_V8统一流程独立种子\\代码\\dual_objective.py",
+      "sha256": "2416499c039a1b8b0ac12767b4b5c9ce018ed396a69e6fd4fb002359a454fadb",
+      "byte_identical": true
+    },
+    "encoder_leaf/edge_retention_objective.py": {
+      "original_path": "C:\\Users\\Dingjunhao\\Desktop\\李慧嘉课题组\\V8神经网络\\实验\\复核_20261005_V8统一流程独立种子\\代码\\edge_retention_objective.py",
+      "sha256": "d02279f8858bf4676663f954b6a4471466f455f9df674c502566a4815debc926",
+      "byte_identical": true
+    },
+    "encoder_leaf/degree_original_template.py": {
+      "original_path": "C:\\Users\\Dingjunhao\\Desktop\\李慧嘉课题组\\V8神经网络\\实验\\复核_20261005_V8统一流程独立种子\\代码\\degree_original_template.py",
+      "sha256": "085589be7bba9fde7f651a591e465bc311254b6d2b4bee5039dd5726226ef5cd",
+      "byte_identical": true
+    },
+    "layer_geometric_single_gw.py": {
+      "original_path": "C:\\Users\\Dingjunhao\\Documents\\李慧嘉论文\\探索_20261007_逐层几何测度单GW静态\\候选源码\\layer_geometric_single_gw.py",
+      "sha256": "e559582eb744d1aac3c2351cbefad2edfcbd4e135645dd648f8c5318d789149a",
+      "byte_identical": true
+    },
+    "layer_geometric_hard_score.py": {
+      "original_path": "C:\\Users\\Dingjunhao\\Documents\\李慧嘉论文\\探索_20261007_逐层几何测度单GW静态\\候选源码\\layer_geometric_hard_score.py",
+      "sha256": "836197a666e82dc1d95dd7b45e6a161213c5d5787117d49c058cb863d96eaabc",
+      "byte_identical": true
+    },
+    "budget600_training_STATIC.py": {
+      "original_path": "C:\\Users\\Dingjunhao\\Documents\\李慧嘉论文\\准备_20261008_同40m两图20cold600预算配对静态\\budget600_training_STATIC.py",
+      "sha256": "95c79971641fe8ed14fa337375fcf8937a0d624909844f633a229b8e4220eea4",
+      "byte_identical": true
+    },
+    "budget600_raw_guard_STATIC.py": {
+      "original_path": "C:\\Users\\Dingjunhao\\Documents\\李慧嘉论文\\准备_20261008_同40m两图20cold600预算配对静态\\budget600_raw_guard_STATIC.py",
+      "sha256": "647898e239e16a9c38f05a29025b7b57186c3fc1b39159184cde6709de6ae27b",
+      "byte_identical": true
+    },
+    "s100_knownK_MAP_wrapper_STATIC_v2.py": {
+      "original_path": "C:\\Users\\Dingjunhao\\Documents\\李慧嘉论文\\准备_20261008_已知K单一MAP后解码90无真值验证静态\\s100_knownK_MAP_wrapper_STATIC_v2.py",
+      "sha256": "2df8e0a1c8120995a4c8be711517ed728487e7df2032fb9dddc8b9001a1314d1",
+      "byte_identical": true
+    },
+    "surjective_map_decoder.py": {
+      "original_path": "C:\\Users\\Dingjunhao\\Documents\\李慧嘉论文\\探索_20261008_已知K非空社区精确MAP投影静态\\surjective_map_decoder.py",
+      "sha256": "e7c1583665d63fbe1f18f47d2c246d6999648f32d3b512afdfca6c4050012ecc",
+      "byte_identical": true
+    },
+    "geometric_argmax_adapter.py": {
+      "original_path": "C:\\Users\\Dingjunhao\\Documents\\李慧嘉论文\\准备_20261007_逐层几何测度单GW冷接口静态\\geometric_argmax_adapter.py",
+      "sha256": "51f2a38a2036048acc532ab8b5f751e6466e845754c424dcd0d1136380d3a1e8",
+      "byte_identical": true
+    },
+    "recovery_step.py": {
+      "original_path": "C:/Users/Dingjunhao/Desktop/李慧嘉课题组/V8神经网络/实验/准备_20261005_保护Adam负梯度恢复/recovery_step.py",
+      "sha256": "53203bb7edea48752097d69b916a37c496d77549c4d82243f37037d2bc8cb7c1",
+      "byte_identical": true
+    }
+  },
+  "model": "single_layer_geometric_measure_GW_with_layer_specific_inverseq_B",
+  "node_penalty": 0.02,
+  "proposals_each": 600,
+  "train_steps": 24,
+  "inference_steps": 100,
+  "width": 24,
+  "eta_parameters": 12,
+  "mode": "restored",
+  "variant": "original-control",
+  "decoder": "uniform_exact_knownK_surjective_MAP_after_S100",
+  "outer_repeats": 5,
+  "starts": 10,
+  "self_check": false,
+  "candidates": 50,
+  "seed_rule": "seed_base+100*r+j",
+  "seed_base": 51207000,
+  "selection": "own_complete_hardGW_ordered_firstargmin",
+  "truth_for_selection": false
+}

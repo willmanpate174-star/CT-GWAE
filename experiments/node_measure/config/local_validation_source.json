@@ -1,0 +1,76 @@
+{
+  "local_package": "D:\\用户文件\\桌面\\李慧嘉课题组\\V8神经网络\\NodeMeasure_Ablation_Local_20261103",
+  "validation": {
+    "status": "passed",
+    "date": "2026-11-03",
+    "new_candidates": 800,
+    "formal_candidates_started": 0,
+    "datasets": [
+      "aucs",
+      "ckm",
+      "dkpol",
+      "workplace"
+    ],
+    "new_measures": [
+      "uniform",
+      "degree"
+    ],
+    "reused_Full_winners": 40,
+    "frozen_lineage_files": 22,
+    "frozen_numerical_files_byte_identical": true,
+    "nontraining_numeric_tests": 92,
+    "full600_engineering_fixtures": [
+      {
+        "measure": "uniform",
+        "dataset": "aucs",
+        "seed": 41000000,
+        "proposals": 600,
+        "seconds": 98.84549779999361,
+        "fresh_process_replay": "passed",
+        "replay_errors": {
+          "initial_S24": 0.0,
+          "initial_S100": 0.0,
+          "selected_S24": 0.0,
+          "selected_S100": 0.0
+        },
+        "receipt_sha256": "4cd7ac63dbf750342a111893c6d90fda14c4565b328b6a63597a5cc5506f96d8",
+        "success_sha256": "642e3076f44fb747d5128b9984966176b262d35127778e5ef311a0fe05a5ee26",
+        "source_manifest": "1f08eea5f7627b51477a3113422b40db111815c4d31343b1da48a8f0e3d1ba6c",
+        "fixture_only": true,
+        "truth_read": false
+      },
+      {
+        "measure": "degree",
+        "dataset": "aucs",
+        "seed": 41000000,
+        "proposals": 600,
+        "seconds": 96.37361419999797,
+        "fresh_process_replay": "passed",
+        "replay_errors": {
+          "initial_S24": 0.0,
+          "initial_S100": 0.0,
+          "selected_S24": 0.0,
+          "selected_S100": 0.0
+        },
+        "receipt_sha256": "680fd06186389e2c054d72b58492505777bddc1817411fb56cbf7314c6bac834",
+        "success_sha256": "eaa61343aa2a129f98f645b524d88ea9585eb8a945214dae22d717b76b5467eb",
+        "source_manifest": "1f08eea5f7627b51477a3113422b40db111815c4d31343b1da48a8f0e3d1ba6c",
+        "fixture_only": true,
+        "truth_read": false
+      }
+    ],
+    "fixture_comparison_ARI_not_computed": true,
+    "original_reference_metrics_max_error": 8.881784197001252e-16,
+    "windows_launcher_status_passed": true,
+    "incomplete_suite_evaluation_blocked": true,
+    "source_manifest_sha256": "e66d78af2f182a0e6519ce2d2aceabf2ee32bf1535d3dc739839d91c49cd1f09",
+    "tested_fixture_code_and_data_same_as_final": true,
+    "postfixture_changes_only": [
+      "run_local.cmd",
+      "reference/provenance.json"
+    ],
+    "formal_complete_claim": false
+  },
+  "algorithm_data_reused": true,
+  "claim": "Local mathematical and2full600 fixtures support numerical entry; server scheduling remains to be exercised by server smoke."
+}

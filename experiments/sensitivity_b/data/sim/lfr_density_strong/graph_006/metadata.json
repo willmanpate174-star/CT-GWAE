@@ -1,0 +1,11 @@
+{
+  "N": 240,
+  "L": 4,
+  "K": 6,
+  "source_condition": "lfr_density_strong",
+  "source_instance": 6,
+  "source_generator": "LFR_derived_six_axes_v2",
+  "source_graph_path": "/data/仿真实验/data_lfr_six_axes_v2/lfr_density_strong/graph_006",
+  "graph_conversion": "Exact CSR arrays from frozen baseline graph; no resampling",
+  "evaluation_rule": "Truth is opened only after the decoded prediction is locked"
+}

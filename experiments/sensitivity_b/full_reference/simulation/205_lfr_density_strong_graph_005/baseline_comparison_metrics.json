@@ -1,0 +1,77 @@
+{
+  "status": "passed",
+  "method": "CT-GWAE-V8-20261008",
+  "scope": "same 320 frozen graphs as seven baselines",
+  "condition": "lfr_density_strong",
+  "instance": 5,
+  "family": "LFR_derived",
+  "graph_index": 205,
+  "outer_repeats": 5,
+  "cold_starts_per_repeat": 10,
+  "training_candidates": 50,
+  "training_proposals": 30000,
+  "protocol_amendment_sha256": "75edc88df353105c9d1b6e82b0b0599f783e648277bbbb42d2b635f3f1151ead",
+  "selection": "own decoded complete hardGW first-argmin before truth",
+  "metric_rule": "baseline one-shot node-layer ARI/NMI/ACC",
+  "package_manifest_sha256": "e3b19ff1d528e7edeb0f0184ff11a3b3d23d4c6103896635710d597e3361692f",
+  "input_metadata_sha256": "04b5b22d7f40c89acf6251eadf9c7a7a80bd876f715fc769e352915dbc1bd24a",
+  "lock_sha256": "18c2bc94b8cea629adbbfb5d7c80935a07795c1e50aa7eb93ba296b43b64e4de",
+  "rows": [
+    {
+      "r": 0,
+      "winner_j": 1,
+      "seed": 51205001,
+      "ari": 0.954550478779587,
+      "nmi": 0.9617477096656026,
+      "acc": 0.9833333333333333,
+      "evaluation_positions": 960,
+      "predicted_communities": 6
+    },
+    {
+      "r": 1,
+      "winner_j": 0,
+      "seed": 51205100,
+      "ari": 0.954550478779587,
+      "nmi": 0.9617477096656025,
+      "acc": 0.9833333333333333,
+      "evaluation_positions": 960,
+      "predicted_communities": 6
+    },
+    {
+      "r": 2,
+      "winner_j": 0,
+      "seed": 51205200,
+      "ari": 0.954550478779587,
+      "nmi": 0.9617477096656025,
+      "acc": 0.9833333333333333,
+      "evaluation_positions": 960,
+      "predicted_communities": 6
+    },
+    {
+      "r": 3,
+      "winner_j": 0,
+      "seed": 51205300,
+      "ari": 0.954550478779587,
+      "nmi": 0.9617477096656025,
+      "acc": 0.9833333333333333,
+      "evaluation_positions": 960,
+      "predicted_communities": 6
+    },
+    {
+      "r": 4,
+      "winner_j": 0,
+      "seed": 51205400,
+      "ari": 0.954550478779587,
+      "nmi": 0.9617477096656025,
+      "acc": 0.9833333333333333,
+      "evaluation_positions": 960,
+      "predicted_communities": 6
+    }
+  ],
+  "ari_mean": 0.9545504787795871,
+  "ari_sample_sd": 1.2412670766236366e-16,
+  "nmi_mean": 0.9617477096656026,
+  "nmi_sample_sd": 1.1102230246251565e-16,
+  "acc_mean": 0.9833333333333332,
+  "acc_sample_sd": 1.2412670766236366e-16
+}

@@ -1,0 +1,73 @@
+{
+  "date": "2026-11-03",
+  "scope": "Node measure ablation only",
+  "datasets": [
+    "aucs",
+    "ckm",
+    "dkpol",
+    "workplace"
+  ],
+  "measures": {
+    "uniform": "mu_i=1/N, including isolated nodes",
+    "sqrt": "mu_i=sqrt(d_i)/sum sqrt(d_j); frozen Full reused",
+    "degree": "mu_i=d_i/sum d_j; isolated nodes have zero mass"
+  },
+  "new_candidates": 800,
+  "rounds_per_variant": 10,
+  "starts_per_round": 10,
+  "proposals": 600,
+  "source": "Frozen original A-group numerical source, byte-identical; new objectives only replace layer statistics",
+  "seed_bases": {
+    "ckm": 41040000,
+    "aucs": 41000000,
+    "dkpol": 41010000,
+    "workplace": 41070000
+  },
+  "seed_rule": "original dataset base + 100*round + start, zero-based; identical across measures",
+  "selection": "each candidate lowest own S24 first exact tie; within round lowest own S100 hard objective first start tie",
+  "reference": "Original 40 Full winners, original seed pools and saved predictions; no rerun of Full",
+  "data_unchanged": true,
+  "encoder_features_and_propagation_unchanged": true,
+  "uniform_transport_p_unchanged": true,
+  "changed": [
+    "layer source mu",
+    "R=raw/(mu_i mu_j)",
+    "nu and null=nu-1",
+    "induced layer q and fitted coefficients"
+  ],
+  "truth": "No truth access during training/replay/selection. Evaluate only after all 800 successes and seals.",
+  "pairing": "Original initialization pools shared. Different measures use own objective for selection; raw losses not ranked across measures.",
+  "threads_per_candidate": 1,
+  "replay": {
+    "fresh_process": true,
+    "threads": 1,
+    "memo": false,
+    "endpoints": [
+      "initial S24",
+      "initial S100",
+      "selected S24",
+      "selected S100"
+    ],
+    "transport_atol": 1e-12,
+    "transport_rtol": 1e-09,
+    "loss_atol": 1e-10,
+    "decoded_predictions": "exact equality"
+  },
+  "failures": "preserve; no replacement seeds or automatic rerun; partial rounds excluded from full results",
+  "runtime_estimate": "Previous server task timings suggest about200 summed single-worker hours, roughly12-18h at20CPUs excluding queue; new measures unmeasured on server",
+  "uniform_zero_degree": "Uniform includes isolated nodes. This three-way comparison does not separately isolate zero-degree support from degree weighting.",
+  "execution": "Slurm via WebShell; do not train on login node",
+  "resources": {
+    "account": "stat",
+    "partition": "debug",
+    "qos": "user_djh2410937_2111",
+    "max_allocations": 10,
+    "cpus_per_allocation": 2,
+    "simultaneous_single_thread_candidates_per_allocation": 2,
+    "max_cpus": 20,
+    "memory_G_per_allocation": 4,
+    "formal_array_pairs": 400,
+    "formal_candidates": 800,
+    "stages": "2CPU full600 smoke -> 400pair array%10 -> 1CPU evaluation; afterok dependencies"
+  }
+}

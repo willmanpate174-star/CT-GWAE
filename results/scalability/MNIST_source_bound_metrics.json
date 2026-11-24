@@ -1,0 +1,69 @@
+{
+  "N": 70000,
+  "L": 2,
+  "K": 10,
+  "methods": {
+    "CT": {
+      "ARI": {
+        "n": 10,
+        "mean": 0.709631318330269,
+        "sampleSD": 0.06050008960961203,
+        "min": 0.6406527397381271,
+        "max": 0.8226901310043763
+      },
+      "NMI": {
+        "n": 10,
+        "mean": 0.8212786609628152,
+        "sampleSD": 0.03105792241574904,
+        "min": 0.7835415356055768,
+        "max": 0.8891325461955586
+      }
+    },
+    "SCML": {
+      "ARI": {
+        "n": 10,
+        "mean": 0.6922475344937374,
+        "sampleSD": 4.82752506860179e-05,
+        "min": 0.6921538374598727,
+        "max": 0.6922781676486875
+      },
+      "NMI": {
+        "n": 10,
+        "mean": 0.7951250710778736,
+        "sampleSD": 3.45790390353958e-05,
+        "min": 0.7950609700579583,
+        "max": 0.7951485735330421
+      }
+    },
+    "DGFM3": {
+      "ARI": {
+        "n": 10,
+        "mean": 0.5418640496809835,
+        "sampleSD": 0.023130616307821563,
+        "min": 0.5100923854788082,
+        "max": 0.5885093020138483
+      },
+      "NMI": {
+        "n": 10,
+        "mean": 0.7237447712244285,
+        "sampleSD": 0.01414545105681378,
+        "min": 0.702893910629375,
+        "max": 0.7450375122406574
+      }
+    }
+  },
+  "evaluation": "140000 aligned node-layer labels; shared outputs replicated across two layers",
+  "CT_training": "R10 J10 each600 proposals",
+  "SCML_runs": 10,
+  "DGFM3_runs": 10,
+  "source_metrics_sha256": "1b448e86497ad502d90013fab21fd48f79d0a61e08a709f230276d45a89c6470",
+  "source_metrics_path": "D:\\用户文件\\桌面\\李慧嘉课题组\\V8神经网络\\实验\\补充实验\\large_network_screening\\unweighted_large_graph_research_20261026\\local_mnist_DGFM3_R10_20261029\\DGFM3_R10_comparison_metrics.json",
+  "original_CT_audit_path": "D:\\用户文件\\桌面\\李慧嘉课题组\\V8神经网络\\实验\\补充实验\\large_network_screening\\unweighted_large_graph_research_20261026\\server_all100_review_20261029_153430\\all100_additional_audit.json",
+  "original_CT_audit_sha256": "9b7132116f3c6e6afd73dd5cf19c5de838fe59830f347323ffd688eb1d8ba813",
+  "selected_CT_original_passes": 10,
+  "all100_training_completed": true,
+  "original_full_pool_replay_passes": 94,
+  "nonselected_replay_failures": 6,
+  "full_pool_acceptance_complete": false,
+  "prediction_manifest_sha256": "b7c0a7b216efe558bb31518b9ac0c74fcfc16ae21a7892723320f198607c619a"
+}

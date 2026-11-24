@@ -1,0 +1,114 @@
+{
+  "name": "ckm",
+  "N": 246,
+  "L": 3,
+  "K": 4,
+  "format": "CSR arrays per layer; aligned node index 0..N-1",
+  "undirected": true,
+  "zero_diagonal": true,
+  "edge_counts": [
+    449,
+    498,
+    423
+  ],
+  "globally_active_nodes": 241,
+  "has_ground_truth": true,
+  "evaluation_nodes_original_mask": 246,
+  "evaluation_nodes_mask_and_active": 241,
+  "external_labels_used_for_training": false,
+  "numpy_version": "2.5.1",
+  "scipy_version": "1.18.0",
+  "preprocessing": "binary_presence; union/max symmetrization",
+  "label_semantics": "four cities; external partition",
+  "source": "https://github.com/CoMuNeLab/CKM-Physicians-Innovation",
+  "source_download": "https://manliodedomenico.com/data/CKM-Physicians-Innovation_Multiplex_Social.zip",
+  "raw_directed": true,
+  "directed_edge_counts": [
+    480,
+    565,
+    506
+  ],
+  "raw_hashes": {
+    "CKM-Physicians-Innovation_nodes.txt": "ab77f623e3ce53c492145f152634e2488557c583b68f7697ef171216aa237f39",
+    "CKM-Physicians-Innovation_layers.txt": "3b9fb71d7eb2f6e51c0eeaa846899eea05b9b51f75533c59b4cb0a77e446ffb1",
+    "CKM-Physicians-Innovation_multiplex.edges": "d8b12afaf49aa08d858786077bc4c66bcc8d579120939a6fa1e5263fcad8295f"
+  },
+  "graph_sha256": "c1176f3f00584f2b8bd5527c76a11a553cc1df319b054927dce24643b2236190",
+  "evaluation_sha256": "9eef8c2da924e4d0b2f5fc1c006eec41e2ab3d8d17edefc9e0085e055b9a2dd0",
+  "m_total": 1370,
+  "m_union": 924,
+  "nnz_total": 2740,
+  "statistics": {
+    "N": 246,
+    "L": 3,
+    "K": 4,
+    "m_total": 1370,
+    "m_union": 924,
+    "nnz_total": 2740,
+    "edge_counts": [
+      449,
+      498,
+      423
+    ],
+    "density_multilayer": 0.01515402909131132,
+    "density_union": 0.030662020905923345,
+    "mean_degree_per_layer": 3.7127371273712737,
+    "mean_degree_union": 7.512195121951219,
+    "weight_sum_total_undirected": 1370.0,
+    "evaluation_nodes": 246,
+    "evaluation_coverage": 1.0,
+    "globally_isolated_nodes": 5,
+    "union_connected_components": 9,
+    "all_layers_binary": true,
+    "class_counts": {
+      "0": 117,
+      "1": 50,
+      "2": 44,
+      "3": 35
+    },
+    "layers": [
+      {
+        "dataset": "ckm",
+        "layer_index": 0,
+        "layer_name": "advice",
+        "N": 246,
+        "m_layer": 449,
+        "nnz": 898,
+        "density": 0.014899618383938941,
+        "mean_degree": 3.6504065040650406,
+        "isolated_nodes": 31,
+        "connected_components": 35,
+        "binary": true,
+        "weight_sum_undirected": 449.0
+      },
+      {
+        "dataset": "ckm",
+        "layer_index": 1,
+        "layer_name": "discussion",
+        "N": 246,
+        "m_layer": 498,
+        "nnz": 996,
+        "density": 0.016525634644101544,
+        "mean_degree": 4.048780487804878,
+        "isolated_nodes": 15,
+        "connected_components": 19,
+        "binary": true,
+        "weight_sum_undirected": 498.0
+      },
+      {
+        "dataset": "ckm",
+        "layer_index": 2,
+        "layer_name": "friend",
+        "N": 246,
+        "m_layer": 423,
+        "nnz": 846,
+        "density": 0.014036834245893479,
+        "mean_degree": 3.4390243902439024,
+        "isolated_nodes": 18,
+        "connected_components": 22,
+        "binary": true,
+        "weight_sum_undirected": 423.0
+      }
+    ]
+  }
+}

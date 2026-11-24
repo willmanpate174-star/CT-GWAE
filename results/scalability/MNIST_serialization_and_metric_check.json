@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "source_truth_sha256": "1acd548e15194d03df15d08949c70159e3287b8f9878f5e94c6d9cd56c231a5c",
+  "source_prediction_manifest_sha256": "b7c0a7b216efe558bb31518b9ac0c74fcfc16ae21a7892723320f198607c619a",
+  "serialized_evaluation_sha256": "b6394a7fd66de4fe1e86f7a13ce3e5700a12eddea5ad8c73f21a7a50e87bd6a9",
+  "reference_predictions": 30,
+  "all_source_layer_arrays_identical": true,
+  "all30_prediction_hashes_match": true,
+  "original_three_method_means_reproduced": true,
+  "original_unselected_CT_replay_pending": 6
+}
